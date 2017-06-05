@@ -447,3 +447,10 @@ LogInit: Object subsystem initialized
 [2017.06.05-18.08.00:047][449]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_BuiltData6F4F8C1A4B4B8AED9A77C7933BDB92E6.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
 [2017.06.05-18.08.00:049][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
 [2017.06.05-18.08.04:009][922]LogEditorViewport: Clicking on Actor (LMB): VRFPSMotionController_C (VRFPSMotionController)
+[2017.06.05-18.18.00:058][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.022
+[2017.06.05-18.18.00:060][347]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/VRFPSMotionController] ([1] browsable assets)...
+[2017.06.05-18.18.00:060][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/VRFPSMotionController]
+[2017.06.05-18.18.00:085][347]LogSavePackage: Save=16.57ms
+[2017.06.05-18.18.00:085][347]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/VRFPSMotionController_Auto2022131A145E58594BBAB5BA5DECAE4FA.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/VRFPSMotionController_Auto2.uasset'
+[2017.06.05-18.18.00:088][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/VRFPSMotionController_Auto2.uasset
+[2017.06.05-18.18.00:088][347]LogFileHelpers: Auto-saving content packages took 0.029
