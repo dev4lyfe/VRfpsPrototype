@@ -7,6 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\VRfpsPrototype\BTService_CheckForPlayer.cpp.obj"
+"C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\VRfpsPrototype\EnemyAI.cpp.obj"
+"C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\VRfpsPrototype\EnemyCharacter.cpp.obj"
+"C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\VRfpsPrototype\VRFPSCharacter.cpp.obj"
 "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\VRfpsPrototype\VRFPSPawn.cpp.obj"
 "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\VRfpsPrototype\VRfpsPrototype.cpp.obj"
 "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\VRfpsPrototype\VRfpsPrototype.generated.cpp.obj"

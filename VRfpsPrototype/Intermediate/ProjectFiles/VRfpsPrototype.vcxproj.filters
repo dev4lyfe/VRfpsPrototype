@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRfpsPrototype.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{11570114-7C3E-4F0A-8E67-C1F9C5F9F202}</UniqueIdentifier>
+      <UniqueIdentifier>{E1E1BB17-2FA0-445F-9006-41D37B7FE763}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRfpsPrototype.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C34BF4AD-D8D1-4F77-893E-63443E0E94D0}</UniqueIdentifier>
+      <UniqueIdentifier>{CF777DFE-8EE4-49D8-B3B9-5A977112D91E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VRfpsPrototype">
-      <UniqueIdentifier>{B9604CE7-72DE-4AF2-B574-F0BE683F4B67}</UniqueIdentifier>
+      <UniqueIdentifier>{AAEF520A-215D-4E56-B369-E80653A50E8B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\VRfpsPrototype\EnemyAI.cpp">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRfpsPrototype\EnemyAI.h">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VRfpsPrototype\VRFPSCharacter.cpp">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRfpsPrototype\VRFPSCharacter.h">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\VRfpsPrototype\VRFPSPawn.cpp">
       <Filter>Source\VRfpsPrototype</Filter>
     </ClCompile>
@@ -49,12 +61,18 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\VRfpsPrototype\VRFPSCharacter.h">
+    <ClInclude Include="..\..\Source\VRfpsPrototype\EnemyCharacter.h">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRfpsPrototype\BTService_CheckForPlayer.h">
       <Filter>Source\VRfpsPrototype</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\VRfpsPrototype\VRFPSCharacter.cpp">
+    <ClCompile Include="..\..\Source\VRfpsPrototype\EnemyCharacter.cpp">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRfpsPrototype\BTService_CheckForPlayer.cpp">
       <Filter>Source\VRfpsPrototype</Filter>
     </ClCompile>
   </ItemGroup>
