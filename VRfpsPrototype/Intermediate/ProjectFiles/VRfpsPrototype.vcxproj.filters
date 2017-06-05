@@ -1,52 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\VRfpsPrototype.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{11570114-7C3E-4F0A-8E67-C1F9C5F9F202}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\VRfpsPrototype.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\VRfpsPrototypeEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{C34BF4AD-D8D1-4F77-893E-63443E0E94D0}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultScalability.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\VRfpsPrototype">
-			<UniqueIdentifier>{B9604CE7-72DE-4AF2-B574-F0BE683F4B67}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\VRfpsPrototype\VRFPSPawn.cpp">
-			<Filter>Source\VRfpsPrototype</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VRfpsPrototype\VRFPSPawn.h">
-			<Filter>Source\VRfpsPrototype</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\VRfpsPrototype\VRfpsPrototype.Build.cs">
-			<Filter>Source\VRfpsPrototype</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\VRfpsPrototype\VRfpsPrototype.cpp">
-			<Filter>Source\VRfpsPrototype</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VRfpsPrototype\VRfpsPrototype.h">
-			<Filter>Source\VRfpsPrototype</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\VRfpsPrototype.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{11570114-7C3E-4F0A-8E67-C1F9C5F9F202}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VRfpsPrototype.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VRfpsPrototypeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C34BF4AD-D8D1-4F77-893E-63443E0E94D0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultScalability.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\VRfpsPrototype">
+      <UniqueIdentifier>{B9604CE7-72DE-4AF2-B574-F0BE683F4B67}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VRfpsPrototype\VRFPSPawn.cpp">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRfpsPrototype\VRFPSPawn.h">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\VRfpsPrototype\VRfpsPrototype.Build.cs">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VRfpsPrototype\VRfpsPrototype.cpp">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRfpsPrototype\VRfpsPrototype.h">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VRfpsPrototype\VRFPSCharacter.h">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VRfpsPrototype\VRFPSCharacter.cpp">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

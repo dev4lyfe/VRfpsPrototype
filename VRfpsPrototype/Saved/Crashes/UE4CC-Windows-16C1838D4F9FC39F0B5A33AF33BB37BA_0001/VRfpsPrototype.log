@@ -1,0 +1,1184 @@
+﻿Log file open, 06/02/17 14:08:32
+LogInit:Display: Running engine for game: VRfpsPrototype
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-449234216) SRandInit(-449234215).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.119897
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.15.0(build = 391815) feature version = 0. Client runs version (prod = 1).1.15.0(build = 391815) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 59.9mm
+OCULUS: Debug: Creating factory
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.02-21.08.33:286][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.02-21.08.33:286][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.02-21.08.33:300][  0]LogInit: Computer: PLUNABOX
+[2017.06.02-21.08.33:300][  0]LogInit: User: pluna
+[2017.06.02-21.08.33:300][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.02-21.08.33:300][  0]LogInit: High frequency timer resolution =3.410069 MHz
+[2017.06.02-21.08.33:301][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.06.02-21.08.33:301][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.02-21.08.33:301][  0]LogMemory: Process Physical Memory: 279.48 MB used, 279.48 MB peak
+[2017.06.02-21.08.33:301][  0]LogMemory: Process Virtual Memory: 270.39 MB used, 270.39 MB peak
+[2017.06.02-21.08.33:301][  0]LogMemory: Physical Memory: 10669.55 MB used,  21996.71 MB free, 32666.25 MB total
+[2017.06.02-21.08.33:301][  0]LogMemory: Virtual Memory: 685.36 MB used,  21996.71 MB free, 134217728.00 MB total
+[2017.06.02-21.08.33:490][  0]LogInit: Using OS detected language (en-US).
+[2017.06.02-21.08.33:490][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.02-21.08.33:497][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.02-21.08.34:597][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.02-21.08.34:618][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.06.02-21.08.34:618][  0]LogD3D11RHI:       4059/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.02-21.08.34:620][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.02-21.08.34:620][  0]LogD3D11RHI:       0/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.02-21.08.34:620][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.02-21.08.34:625][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.02-21.08.34:626][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.02-21.08.34:626][  0]LogWindows: EnumDisplayDevices:
+[2017.06.02-21.08.34:626][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.06.02-21.08.34:626][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.06.02-21.08.34:626][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.02-21.08.34:626][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.02-21.08.34:626][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.02-21.08.34:626][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.06.02-21.08.34:626][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.06.02-21.08.34:626][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.06.02-21.08.34:626][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.02-21.08.34:642][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.02-21.08.34:652][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.02-21.08.34:744][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Intermediate/Shaders/WorkingDirectory/12840/).
+[2017.06.02-21.08.34:744][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PLuna/AppData/Local/Temp/UnrealShaderWorkingDir/E3E8198D4724811B0C83F9A63E66984F/'.
+[2017.06.02-21.08.34:744][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.02-21.08.36:217][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.02-21.08.36:355][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.02-21.08.36:492][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.02-21.08.36:661][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.02-21.08.36:796][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.02-21.08.36:920][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.02-21.08.37:031][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.02-21.08.37:141][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.02-21.08.37:246][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.02-21.08.37:355][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.02-21.08.37:463][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.02-21.08.37:570][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.02-21.08.37:678][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.02-21.08.37:786][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.02-21.08.37:895][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.02-21.08.38:112][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.02-21.08.38:112][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.02-21.08.38:210][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.02-21.08.38:398][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.02-21.08.38:460][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.02-21.08.38:566][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.02-21.08.38:675][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.02-21.08.38:783][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.02-21.08.38:891][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.02-21.08.38:891][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.02-21.08.40:066][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.02-21.08.40:163][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.02-21.08.40:163][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.02-21.08.40:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.02-21.08.40:163][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.02-21.08.40:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.02-21.08.40:163][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.02-21.08.40:178][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.02-21.08.40:191][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PLuna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.02-21.08.40:211][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.02-21.08.40:212][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.02-21.08.40:214][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.02-21.08.40:214][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.02-21.08.40:629][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.02-21.08.40:705][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.02-21.08.40:753][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.06.02-21.09.10:046][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2017.06.02-21.09.14:677][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2017.06.02-21.09.15:238][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2017.06.02-21.09.15:742][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
+[2017.06.02-21.09.15:750][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
+[2017.06.02-21.09.15:983][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.02-21.09.16:125][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.02-21.09.16:272][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.02-21.09.16:272][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.02-21.09.16:272][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.02-21.09.16:655][  0]LogMaterial: Missing cached shader map for material SnapGridMaterial, compiling. 
+[2017.06.02-21.09.16:682][  0]LogMaterial: Missing cached shader map for material Main, compiling. 
+[2017.06.02-21.09.16:696][  0]LogMaterial: Missing cached shader map for material Xray, compiling. 
+[2017.06.02-21.09.16:722][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
+[2017.06.02-21.09.16:789][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2017.06.02-21.09.16:833][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
+[2017.06.02-21.09.16:871][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
+[2017.06.02-21.09.17:292][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2017.06.02-21.09.17:315][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2017.06.02-21.09.17:441][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2017.06.02-21.09.17:483][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2017.06.02-21.09.17:562][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2017.06.02-21.09.17:612][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2017.06.02-21.09.17:962][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2017.06.02-21.09.18:087][  0]LogNetVersion: VRfpsPrototype , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1376506324)
+[2017.06.02-21.09.18:272][  0]LogAssetRegistry: FAssetRegistry took 0.0320 seconds to start up
+[2017.06.02-21.09.18:473][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.073964 seconds
+[2017.06.02-21.09.18:485][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.02-21.09.18:485][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.02-21.09.18:485][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.02-21.09.18:809][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.02-21.09.23:869][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2017.06.02-21.09.23:888][  0]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
+[2017.06.02-21.09.23:923][  0]LogMaterial: Missing cached shader map for material VivePreControllerMaterial, compiling. 
+[2017.06.02-21.09.23:947][  0]LogMaterial: Missing cached shader map for material OculusControllerMaterial, compiling. 
+[2017.06.02-21.09.23:972][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.06.02-21.09.23:990][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2017.06.02-21.09.24:011][  0]LogMaterial: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
+[2017.06.02-21.09.24:044][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2017.06.02-21.09.24:076][  0]LogMaterial: Missing cached shader map for material KeyDiskMaterial, compiling. 
+[2017.06.02-21.09.24:094][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
+[2017.06.02-21.09.24:141][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
+[2017.06.02-21.09.24:172][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2017.06.02-21.09.24:208][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
+[2017.06.02-21.09.27:860][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.02-21.09.28:002][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.02-21.09.28:984][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.06.02-21.09.30:187][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.06.02-21.09.30:201][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2017.06.02-21.09.30:241][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.02-21.09.30:248][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2017.06.02-21.09.30:267][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2017.06.02-21.09.30:283][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2017.06.02-21.09.30:299][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2017.06.02-21.09.30:313][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2017.06.02-21.09.30:330][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2017.06.02-21.09.30:346][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2017.06.02-21.09.30:362][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2017.06.02-21.09.30:380][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2017.06.02-21.09.30:396][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2017.06.02-21.09.30:410][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2017.06.02-21.09.30:424][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.06.02-21.09.30:439][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2017.06.02-21.09.30:457][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2017.06.02-21.09.30:476][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2017.06.02-21.09.30:503][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2017.06.02-21.09.30:520][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2017.06.02-21.09.30:538][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2017.06.02-21.09.30:555][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2017.06.02-21.09.32:089][  0]SourceControl: Info Source control is disabled
+[2017.06.02-21.09.32:203][  0]SourceControl: Info Source control is disabled
+[2017.06.02-21.09.32:433][  0]SourceControl: Info Source control is disabled
+[2017.06.02-21.09.32:678][  0]SourceControl: Info Source control is disabled
+[2017.06.02-21.09.36:026][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.02-21.09.38:597][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2017.06.02-21.09.38:621][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2017.06.02-21.09.38:650][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2017.06.02-21.09.38:686][  0]LogEngine: Initializing Engine...
+[2017.06.02-21.09.38:687][  0]LogHMD: Oculus plugin initialized. Version: 4.16.1-3466753+++UE4+Release-4.16, LibOVR: 1.15.0, SDK: 1.12.0, built May 31 2017, 02:11:10
+[2017.06.02-21.09.38:708][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.02-21.09.38:708][  0]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.02-21.09.38:708][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2017.06.02-21.09.39:003][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2017.06.02-21.09.39:721][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2017.06.02-21.09.39:954][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2017.06.02-21.09.40:684][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2017.06.02-21.09.41:431][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2017.06.02-21.09.41:673][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2017.06.02-21.09.41:775][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2017.06.02-21.09.41:803][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2017.06.02-21.09.41:830][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2017.06.02-21.09.41:855][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2017.06.02-21.09.41:878][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2017.06.02-21.09.41:905][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2017.06.02-21.09.41:919][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2017.06.02-21.09.41:948][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2017.06.02-21.09.41:997][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2017.06.02-21.09.42:020][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2017.06.02-21.09.42:048][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
+[2017.06.02-21.09.42:072][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2017.06.02-21.09.42:100][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2017.06.02-21.09.42:198][  0]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
+[2017.06.02-21.09.42:228][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2017.06.02-21.09.42:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.02-21.09.42:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.02-21.09.43:005][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.02-21.09.43:022][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.02-21.09.43:069][  0]LogInit: FAudioDevice initialized.
+[2017.06.02-21.09.43:135][  0]LogDerivedDataCache: Saved boot cache 0.07s 94MB C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.02-21.09.43:147][  0]LogInit: Texture streaming: Enabled
+[2017.06.02-21.09.43:624][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.02-21.09.44:631][  0]LogInit: Transaction tracking system initialized
+[2017.06.02-21.09.46:143][  0]BlueprintLog: New page: Editor Load
+[2017.06.02-21.09.50:653][  0]LocalizationService: Info Localization service is disabled
+[2017.06.02-21.09.53:877][  0]LogConsoleResponse:Display: 
+[2017.06.02-21.09.54:007][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2017.06.02-21.09.54:037][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2017.06.02-21.09.54:057][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2017.06.02-21.09.54:075][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2017.06.02-21.09.54:096][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2017.06.02-21.09.54:118][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2017.06.02-21.09.54:144][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2017.06.02-21.09.54:164][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2017.06.02-21.09.54:183][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2017.06.02-21.09.54:204][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2017.06.02-21.09.54:222][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2017.06.02-21.09.54:241][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2017.06.02-21.09.54:261][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2017.06.02-21.09.54:326][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2017.06.02-21.09.54:390][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.06.02-21.09.54:452][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2017.06.02-21.09.54:499][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.02-21.09.54:499][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.02-21.09.55:516][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/' took 0.01s
+[2017.06.02-21.09.59:358][  0]SourceControl: Info Source control is disabled
+[2017.06.02-21.09.59:358][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.02-21.09.59:359][  0]LightingResults: New page: Lighting Build
+[2017.06.02-21.09.59:562][  0]MapCheck: New page: Map Check
+[2017.06.02-21.09.59:562][  0]LightingResults: New page: Lighting Build
+[2017.06.02-21.09.59:785][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.02-21.10.00:176][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.02-21.10.00:188][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.02-21.10.00:450][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 261.178ms to complete.
+[2017.06.02-21.10.00:450][  0]LogFileHelpers: Loading map 'StartupMap' took 1.092
+[2017.06.02-21.10.00:747][  0]LogCollectionManager: Loaded 0 collections in 0.003313 seconds
+[2017.06.02-21.10.01:001][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Collections/' took 0.01s
+[2017.06.02-21.10.01:001][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Developers/pluna/Collections/' took 0.01s
+[2017.06.02-21.10.01:001][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Collections/' took 0.01s
+[2017.06.02-21.10.01:001][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.06.02-21.10.01:019][  0]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 2329 classes and 491 folders.
+[2017.06.02-21.10.01:331][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.06.02-21.10.01:476][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.06.02-21.10.01:764][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.06.02-21.10.01:905][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.02-21.10.01:914][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.02-21.10.01:918][  0]LogSlate: Took 0.000999 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.02-21.10.01:926][  0]LogSlate: Took 0.001774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.02-21.10.02:009][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2017.06.02-21.10.02:119][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.02-21.10.02:477][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.02-21.10.02:703][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.06.02-21.10.02:704][  0]LogLoad: (Engine Initialization) Total time: 92.09 seconds
+[2017.06.02-21.10.02:704][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.06.02-21.10.02:704][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.02-21.10.02:704][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.02-21.10.03:043][  0]LogOcInput: OculusInput pre-init called
+[2017.06.02-21.10.03:062][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.15.0
+[2017.06.02-21.10.03:062][  0]LogHMD: Starting GearVRController plugin
+[2017.06.02-21.10.03:083][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.02-21.10.03:388][  1]LogAssetRegistry: Asset discovery search completed in 45.1386 seconds
+[2017.06.02-21.10.03:391][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.02-21.10.03:391][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2017.06.02-21.10.07:390][ 13]LogSlate: Took 0.002105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.02-21.11.03:331][318]LogSlate: Took 0.000777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.02-21.11.03:622][318]LogSlate: Took 0.002804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.02-21.11.20:038][954]Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" -game -rocket -progress
+[2017.06.02-21.11.20:444][954]Discovering modules, targets and source code for project...
+[2017.06.02-21.11.26:762][954]LogSlate: Took 0.000484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.02-21.11.28:583][954]LogHotReload: Recompiling module VRfpsPrototype...
+[2017.06.02-21.11.28:588][954]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.06.02-21.11.28:618][954]Candidate modules for hot reload:
+[2017.06.02-21.11.28:618][954]  VRfpsPrototype
+[2017.06.02-21.11.28:619][954]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -Module VRfpsPrototype Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.02-21.12.13:424][954]Performing full C++ include scan (hot reloading a new target)
+Creating makefile for hot reloading VRfpsPrototype (no existing makefile)
+Compiling game modules for hot reload
+Parsing headers for VRfpsPrototypeEditor
+  Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\Development\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for VRfpsPrototypeEditor in 7.3943116 seconds
+Performing 8 actions (9 in parallel)
+[3/8] Resource PCLaunch.rc
+[2/8] Resource ModuleVersionResource.rc.inl
+SharedPCH.Engine.cpp
+VRfpsPrototype.cpp
+VRfpsPrototype.generated.cpp
+VRFPSPawn.cpp
+[7/8] Link UE4Editor-VRfpsPrototype.dll
+[8/8] Link UE4Editor-VRfpsPrototype.lib
+   Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype.exp
+   Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype.suppressed.exp
+Total build time: 44.48 seconds (Local executor: 26.17 seconds)
+
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 7:12:13 AM
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info Creating makefile for hot reloading VRfpsPrototype (no existing makefile)
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info Parsing headers for VRfpsPrototypeEditor
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\Development\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info Reflection code generated for VRfpsPrototypeEditor in 7.3943116 seconds
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info Performing 8 actions (9 in parallel)
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info [3/8] Resource PCLaunch.rc
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info [2/8] Resource ModuleVersionResource.rc.inl
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info SharedPCH.Engine.cpp
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info VRfpsPrototype.cpp
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info VRfpsPrototype.generated.cpp
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info [7/8] Link UE4Editor-VRfpsPrototype.dll
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info [8/8] Link UE4Editor-VRfpsPrototype.lib
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype.exp
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype.suppressed.exp
+[2017.06.02-21.12.13:425][954]CompilerResultsLog: Info Total build time: 44.48 seconds (Local executor: 26.17 seconds)
+[2017.06.02-21.12.13:425][954]LogMainFrame: MainFrame: Module compiling took 44.837 seconds
+[2017.06.02-21.12.13:425][954]Reloading module VRfpsPrototype after successful compile.
+[2017.06.02-21.12.13:534][954]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2017.06.02-21.12.13:547][954]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2332 classes and 497 folders.
+[2017.06.02-21.12.22:547][203]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Source/VRfpsPrototype/VRFPSPawn.h'
+[2017.06.02-21.12.22:594][203]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Source/VRfpsPrototype/VRFPSPawn.cpp'
+[2017.06.02-21.12.41:271][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GenericHMD2)
+[2017.06.02-21.12.59:097][318]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.06.02-21.12.59:280][318]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.02-21.12.59:306][318]Cmd: MAP LOAD FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.02-21.12.59:307][318]LightingResults: New page: Lighting Build
+[2017.06.02-21.12.59:307][318]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.06.02-21.12.59:309][318]MapCheck: New page: Map Check
+[2017.06.02-21.12.59:309][318]LightingResults: New page: Lighting Build
+[2017.06.02-21.12.59:324][318]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.02-21.12.59:350][318]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.02-21.12.59:564][318]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 214.585ms to complete.
+[2017.06.02-21.12.59:565][318]LogFileHelpers: Loading map 'MotionControllerMap' took 0.260
+[2017.06.02-21.16.48:646][760]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2017.06.02-21.17.25:223][900]LogSlate: Took 0.001659 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.02-21.17.37:240][281]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 112 classes and 0 folders.
+[2017.06.02-21.17.37:788][281]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.06.02-21.17.37:822][281]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2017.06.02-21.25.10:900][368]Candidate modules for hot reload:
+[2017.06.02-21.25.10:900][368]  VRfpsPrototype
+[2017.06.02-21.25.10:901][368]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 2106 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.02-21.25.10:903][368]Warning: Starting HotReload took  0.0s.
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 7:25:32 AM
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info Creating makefile for hot reloading VRfpsPrototype (modules to compile have changed)
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info Parsing headers for VRfpsPrototypeEditor
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\Development\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info Reflection code generated for VRfpsPrototypeEditor in 4.0984484 seconds
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info VRfpsPrototype.generated.cpp
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info [3/4] Link UE4Editor-VRfpsPrototype-2106.dll
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info [4/4] Link UE4Editor-VRfpsPrototype-2106.lib
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-2106.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-2106.exp
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-2106.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-2106.suppressed.exp
+[2017.06.02-21.25.32:711][158]CompilerResultsLog: Info Total build time: 21.31 seconds (Local executor: 11.57 seconds)
+[2017.06.02-21.25.32:711][158]LogMainFrame: MainFrame: Module compiling took 21.817 seconds
+[2017.06.02-21.25.32:841][158]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.06.02-21.25.32:843][158]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.02-21.25.33:153][158]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2332 classes and 497 folders.
+[2017.06.02-21.25.33:153][158]Display: HotReload took 22.3s.
+[2017.06.02-21.59.23:127][879]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.06.02-21.59.24:310][947]LogSavePackage: Save=137.99ms
+[2017.06.02-21.59.24:310][947]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerPawn570935CF449710153B4CF7A05641BABA.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.06.02-21.59.24:314][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.06.02-21.59.52:764][211]LogSavePackage: Save=195.71ms
+[2017.06.02-21.59.52:764][211]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_Auto1C0E2611F467023321FB39E9268B438A6.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2017.06.02-21.59.52:766][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2017.06.02-21.59.52:768][211]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.242
+[2017.06.02-21.59.52:768][211]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.242
+[2017.06.02-22.15.09:707][ 96]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.02-22.15.09:755][ 98]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRfpsPrototype
+[2017.06.02-22.15.09:755][ 98]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.02-22.15.09:755][ 98]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.06.02-22.15.09:755][ 98]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.02-22.15.09:755][ 98]LogTemp: BranchPath = PLUNABOX/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = PLUNABOX/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.06.02-22.15.09:774][100]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\PLuna\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.06.02-23.13.32:356][922]Candidate modules for hot reload:
+[2017.06.02-23.13.32:356][922]  VRfpsPrototype
+[2017.06.02-23.13.32:356][922]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 6072 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.02-23.13.32:358][922]Warning: Starting HotReload took  0.0s.
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 9:13:56 AM
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info Creating makefile for hot reloading VRfpsPrototype (ini files are newer that UBTMakefile)
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info Parsing headers for VRfpsPrototypeEditor
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\Development\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info Reflection code generated for VRfpsPrototypeEditor in 4.1226532 seconds
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info VRfpsPrototype.generated.cpp
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info [3/4] Link UE4Editor-VRfpsPrototype-6072.dll
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info [4/4] Link UE4Editor-VRfpsPrototype-6072.lib
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-6072.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-6072.exp
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-6072.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-6072.suppressed.exp
+[2017.06.02-23.13.56:587][803]CompilerResultsLog: Info Total build time: 24.01 seconds (Local executor: 14.18 seconds)
+[2017.06.02-23.13.56:587][803]LogMainFrame: MainFrame: Module compiling took 24.238 seconds
+[2017.06.02-23.13.56:738][803]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.06.02-23.13.56:740][803]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.02-23.13.56:982][803]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2332 classes and 497 folders.
+[2017.06.02-23.13.56:982][803]Display: HotReload took 24.6s.
+[2017.06.02-23.14.08:552][787]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.02-23.14.15:146][297]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn from Pawn to VRFPSPawn...
+[2017.06.02-23.14.15:171][297]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.06.02-23.14.18:766][538]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.06.02-23.14.20:435][630]LogSavePackage: Save=135.93ms
+[2017.06.02-23.14.20:435][630]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerPawnD826F4DD4FE8D561D3213990B79E2B7D.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.06.02-23.14.20:438][630]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.06.02-23.14.42:956][443]LogTemp: Repeting last play command: VR Preview
+[2017.06.02-23.14.43:004][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.14.43:004][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.14.43:005][443]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.02-23.14.43:005][443]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.02-23.14.43:005][443]LogHMD: New ovr session is created
+[2017.06.02-23.14.43:005][443]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.02-23.14.43:005][443]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 9:14:43 AM)
+[2017.06.02-23.14.43:005][443]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.02-23.14.43:013][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007437s)
+[2017.06.02-23.14.43:013][443]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.02-23.14.43:014][443]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.06.02-23.14.43:014][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008468s)
+[2017.06.02-23.14.43:058][443]LogHMD: Vision Tracking Acquired
+[2017.06.02-23.14.43:062][443]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.14.43:071][443]LogInit: FAudioDevice initialized.
+[2017.06.02-23.14.43:201][443]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.02-23.14.43:201][443]LogLoad: Game class is 'GameModeBase'
+[2017.06.02-23.14.43:205][443]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-16.14.43
+[2017.06.02-23.14.43:205][443]LogWorld: Bringing up level for play took: 0.002142
+[2017.06.02-23.14.43:323][443]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 11 classes and 0 folders.
+[2017.06.02-23.14.43:339][443]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.724
+[2017.06.02-23.14.43:340][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.14.43:359][443]LogHMD: Reallocation of eye buffer was requested
+[2017.06.02-23.14.43:361][443]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x00000287058FDD20
+[2017.06.02-23.14.43:401][443]LogRenderer: Reallocating scene render targets to support 2712x1600 NumSamples 1 (Frame:1).
+[2017.06.02-23.15.15:377][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.15.15:382][270]LogHMD: Destroying ovr session
+[2017.06.02-23.15.15:382][270]LogHMD: Freeing textureSet 0x00000287058FDD20
+[2017.06.02-23.15.15:526][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.16.00:474][865]LogSavePackage: Save=189.61ms
+[2017.06.02-23.16.00:474][865]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_Auto23CA9A1A149B2C456C1D2329BC82A0571.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap'
+[2017.06.02-23.16.00:475][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
+[2017.06.02-23.16.00:477][865]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.213
+[2017.06.02-23.16.00:477][865]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.213
+[2017.06.02-23.20.10:711][886]Candidate modules for hot reload:
+[2017.06.02-23.20.10:711][886]  VRfpsPrototype
+[2017.06.02-23.20.10:711][886]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 4666 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.02-23.20.10:713][886]Warning: Starting HotReload took  0.0s.
+[2017.06.02-23.20.23:122][156]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 9:20:23 AM
+[2017.06.02-23.20.23:122][156]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.02-23.20.23:122][156]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.06.02-23.20.23:122][156]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.02-23.20.23:122][156]CompilerResultsLog:Error: Error C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototype\VRFPSPawn.cpp(42) : error C4800: 'float': forcing value to bool 'true' or 'false' (performance warning)
+[2017.06.02-23.20.23:122][156]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Binaries\Win64\UE4Editor-VRfpsPrototype-4666.dll
+[2017.06.02-23.20.23:122][156]CompilerResultsLog: Info Total build time: 12.01 seconds (Local executor: 0.00 seconds)
+[2017.06.02-23.20.23:122][156]LogMainFrame: MainFrame: Module compiling took 12.418 seconds
+[2017.06.02-23.20.23:122][156]Warning: HotReload failed, recompile failed
+[2017.06.02-23.20.56:430][425]Candidate modules for hot reload:
+[2017.06.02-23.20.56:430][425]  VRfpsPrototype
+[2017.06.02-23.20.56:431][425]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 8566 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.02-23.20.56:432][425]Warning: Starting HotReload took  0.0s.
+[2017.06.02-23.21.08:440][610]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 9:21:08 AM
+[2017.06.02-23.21.08:440][610]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.02-23.21.08:440][610]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.06.02-23.21.08:440][610]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.02-23.21.08:440][610]CompilerResultsLog:Error: Error C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototype\VRFPSPawn.cpp(42) : error C4800: 'float': forcing value to bool 'true' or 'false' (performance warning)
+[2017.06.02-23.21.08:440][610]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Binaries\Win64\UE4Editor-VRfpsPrototype-8566.dll
+[2017.06.02-23.21.08:440][610]CompilerResultsLog: Info Total build time: 11.70 seconds (Local executor: 0.00 seconds)
+[2017.06.02-23.21.08:440][610]LogMainFrame: MainFrame: Module compiling took 12.016 seconds
+[2017.06.02-23.21.08:440][610]Warning: HotReload failed, recompile failed
+[2017.06.02-23.28.57:265][811]LogTemp: Repeting last play command: VR Preview
+[2017.06.02-23.28.57:278][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.28.57:278][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.28.57:281][811]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.02-23.28.57:281][811]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.02-23.28.57:281][811]LogHMD: New ovr session is created
+[2017.06.02-23.28.57:281][811]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.02-23.28.57:281][811]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 9:28:57 AM)
+[2017.06.02-23.28.57:281][811]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.02-23.28.57:289][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007864s)
+[2017.06.02-23.28.57:290][811]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.02-23.28.57:290][811]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.06.02-23.28.57:290][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008892s)
+[2017.06.02-23.28.57:337][811]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.28.57:345][811]LogInit: FAudioDevice initialized.
+[2017.06.02-23.28.57:462][811]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.02-23.28.57:462][811]LogLoad: Game class is 'GameModeBase'
+[2017.06.02-23.28.57:465][811]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-16.28.57
+[2017.06.02-23.28.57:466][811]LogWorld: Bringing up level for play took: 0.002372
+[2017.06.02-23.28.57:485][811]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.875
+[2017.06.02-23.28.57:486][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.28.57:510][811]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.02-23.28.57:512][811]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000028780E38800
+[2017.06.02-23.28.59:582][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.28.59:594][997]LogHMD: Destroying ovr session
+[2017.06.02-23.28.59:594][997]LogHMD: Freeing textureSet 0x0000028780E38800
+[2017.06.02-23.28.59:723][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.29.01:182][158]Candidate modules for hot reload:
+[2017.06.02-23.29.01:182][158]  VRfpsPrototype
+[2017.06.02-23.29.01:183][158]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 8607 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.02-23.29.01:184][158]Warning: Starting HotReload took  0.0s.
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 9:29:16 AM
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: Info [2/3] Link UE4Editor-VRfpsPrototype-8607.dll
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: Info [3/3] Link UE4Editor-VRfpsPrototype-8607.lib
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-8607.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-8607.exp
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-8607.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-8607.suppressed.exp
+[2017.06.02-23.29.16:784][  9]CompilerResultsLog: Info Total build time: 15.38 seconds (Local executor: 14.58 seconds)
+[2017.06.02-23.29.16:784][  9]LogMainFrame: MainFrame: Module compiling took 15.608 seconds
+[2017.06.02-23.29.16:912][  9]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.06.02-23.29.16:914][  9]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.02-23.29.17:156][  9]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2332 classes and 497 folders.
+[2017.06.02-23.29.17:156][  9]Display: HotReload took 16.0s.
+[2017.06.02-23.29.19:308][262]LogTemp: Repeting last play command: VR Preview
+[2017.06.02-23.29.19:318][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.29.19:318][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.29.19:321][262]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.02-23.29.19:321][262]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.02-23.29.19:321][262]LogHMD: New ovr session is created
+[2017.06.02-23.29.19:321][262]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.02-23.29.19:322][262]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 9:29:19 AM)
+[2017.06.02-23.29.19:322][262]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.02-23.29.19:329][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007268s)
+[2017.06.02-23.29.19:329][262]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.02-23.29.19:330][262]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.06.02-23.29.19:330][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008064s)
+[2017.06.02-23.29.19:396][262]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.29.19:402][262]LogInit: FAudioDevice initialized.
+[2017.06.02-23.29.19:504][262]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.02-23.29.19:504][262]LogLoad: Game class is 'GameModeBase'
+[2017.06.02-23.29.19:506][262]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-16.29.19
+[2017.06.02-23.29.19:507][262]LogWorld: Bringing up level for play took: 0.001867
+[2017.06.02-23.29.19:517][262]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.906
+[2017.06.02-23.29.19:517][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.29.19:539][262]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.02-23.29.19:540][262]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000028780CFC520
+[2017.06.02-23.29.39:001][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.29.39:006][ 14]LogHMD: Destroying ovr session
+[2017.06.02-23.29.39:007][ 14]LogHMD: Freeing textureSet 0x0000028780CFC520
+[2017.06.02-23.29.39:117][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.54.34:923][  0]LogTemp: Repeting last play command: VR Preview
+[2017.06.02-23.54.34:934][  0]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.54.34:934][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.54.34:935][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.02-23.54.34:935][  0]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.02-23.54.34:935][  0]LogHMD: New ovr session is created
+[2017.06.02-23.54.34:935][  0]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.02-23.54.34:935][  0]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 9:54:34 AM)
+[2017.06.02-23.54.34:935][  0]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.02-23.54.34:943][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008060s)
+[2017.06.02-23.54.34:944][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.02-23.54.34:944][  0]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2017.06.02-23.54.34:944][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.009127s)
+[2017.06.02-23.54.34:993][  0]LogHMD: Lost Vision Tracking
+[2017.06.02-23.54.34:997][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.54.35:005][  0]LogInit: FAudioDevice initialized.
+[2017.06.02-23.54.35:126][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.02-23.54.35:126][  0]LogLoad: Game class is 'GameModeBase'
+[2017.06.02-23.54.35:129][  0]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-16.54.35
+[2017.06.02-23.54.35:130][  0]LogWorld: Bringing up level for play took: 0.002630
+[2017.06.02-23.54.35:146][  0]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.543
+[2017.06.02-23.54.35:146][  0]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.54.35:167][  0]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.02-23.54.35:169][  0]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x000002878168A5A0
+[2017.06.02-23.54.36:070][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.54.36:075][ 94]LogHMD: Destroying ovr session
+[2017.06.02-23.54.36:075][ 94]LogHMD: Freeing textureSet 0x000002878168A5A0
+[2017.06.02-23.54.36:201][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.54.37:674][257]Candidate modules for hot reload:
+[2017.06.02-23.54.37:674][257]  VRfpsPrototype
+[2017.06.02-23.54.37:675][257]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 507 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.02-23.54.37:676][257]Warning: Starting HotReload took  0.0s.
+[2017.06.02-23.54.59:469][791]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 9:54:59 AM
+[2017.06.02-23.54.59:469][791]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.02-23.54.59:469][791]CompilerResultsLog: Info Parsing headers for VRfpsPrototypeEditor
+[2017.06.02-23.54.59:469][791]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\Development\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.02-23.54.59:469][791]CompilerResultsLog: Info Reflection code generated for VRfpsPrototypeEditor in 4.3227925 seconds
+[2017.06.02-23.54.59:469][791]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.06.02-23.54.59:470][791]CompilerResultsLog: Info VRfpsPrototype.generated.cpp
+[2017.06.02-23.54.59:470][791]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.02-23.54.59:470][791]CompilerResultsLog: Info [3/4] Link UE4Editor-VRfpsPrototype-507.dll
+[2017.06.02-23.54.59:470][791]CompilerResultsLog: Info [4/4] Link UE4Editor-VRfpsPrototype-507.lib
+[2017.06.02-23.54.59:470][791]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-507.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-507.exp
+[2017.06.02-23.54.59:470][791]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-507.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-507.suppressed.exp
+[2017.06.02-23.54.59:470][791]CompilerResultsLog: Info Total build time: 21.58 seconds (Local executor: 16.10 seconds)
+[2017.06.02-23.54.59:470][791]LogMainFrame: MainFrame: Module compiling took 21.802 seconds
+[2017.06.02-23.54.59:596][791]LogClass: Could not find existing class VRFPSPawn in package /Script/VRfpsPrototype for HotReload, assuming new class
+[2017.06.02-23.54.59:596][791]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.54.59:674][791]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.078 s
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: 
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 2145]
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: Stack: 
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000010DAE1C6
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000010B5B7D2
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000010B71D96
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000115D178B
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000115CF6DB
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000115D2317
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001159DE98
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000114F1E14
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-VRfpsPrototype-507.dll!AVRFPSPawn::AVRFPSPawn() [c:\users\pluna\documents\github\vrfpsprototype\vrfpsprototype\source\vrfpsprototype\vrfpspawn.cpp:13]
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000011373E72
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000115DAF5B
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000115BE9A3
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000011375C97
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000109FF670
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000010C53750
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000010C528E0
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-HotReload.dll!0x00000000F6F32A1E
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-HotReload.dll!0x00000000F6F30024
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-HotReload.dll!0x00000000F6F309F0
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-HotReload.dll!0x00000000F6F42E9B
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000A2A1E3E
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000AAC8AD6
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor.exe!0x000000000656E2B2
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor.exe!0x000000000655F0B0
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor.exe!0x000000000655F12A
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor.exe!0x0000000006570CF9
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: UE4Editor.exe!0x00000000065725F7
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: KERNEL32.DLL!0x0000000064DE2774
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: ntdll.dll!0x0000000064EF0D61
+[2017.06.02-23.54.59:674][791]LogOutputDevice:Error: 
+[2017.06.02-23.54.59:683][791]LogStats:                SubmitErrorReport -  0.000 s
+[2017.06.02-23.55.00:678][791]LogStats:                    SendNewReport -  0.995 s
+[2017.06.02-23.55.00:678][791]LogStats:             FDebug::EnsureFailed -  1.082 s
+[2017.06.02-23.55.00:685][791]LogHotReload: Re-instancing VRFPSPawn after hot-reload.
+[2017.06.02-23.55.00:724][791]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.55.00:741][791]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.55.00:934][791]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.55.00:964][791]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.55.01:271][791]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.06.02-23.55.01:274][791]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.02-23.55.01:532][791]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2332 classes and 497 folders.
+[2017.06.02-23.55.01:532][791]Display: HotReload took 23.9s.
+[2017.06.02-23.55.03:893][ 59]LogTemp: Repeting last play command: VR Preview
+[2017.06.02-23.55.03:904][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.55.03:904][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.55.03:905][ 59]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.02-23.55.03:905][ 59]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.02-23.55.03:905][ 59]LogHMD: New ovr session is created
+[2017.06.02-23.55.03:905][ 59]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.02-23.55.03:905][ 59]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 9:55:03 AM)
+[2017.06.02-23.55.03:905][ 59]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.02-23.55.03:906][ 59]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.55.03:906][ 59]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.55.03:912][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007255s)
+[2017.06.02-23.55.03:913][ 59]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.02-23.55.03:913][ 59]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.06.02-23.55.03:913][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008173s)
+[2017.06.02-23.55.03:992][ 59]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.55.03:999][ 59]LogInit: FAudioDevice initialized.
+[2017.06.02-23.55.04:096][ 59]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.02-23.55.04:096][ 59]LogLoad: Game class is 'GameModeBase'
+[2017.06.02-23.55.04:099][ 59]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-16.55.04
+[2017.06.02-23.55.04:099][ 59]LogWorld: Bringing up level for play took: 0.001991
+[2017.06.02-23.55.04:109][ 59]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.493
+[2017.06.02-23.55.04:110][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.55.04:132][ 59]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.02-23.55.04:134][ 59]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000028780CFAAE0
+[2017.06.02-23.55.05:053][153]LogHMD: Vision Tracking Acquired
+[2017.06.02-23.55.08:295][457]OCULUS: Error: Prediction interval too high: 38.302671 s, clamping at 0.100000 s
+[2017.06.02-23.55.24:874][947]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.55.24:875][947]LogHMD: Destroying ovr session
+[2017.06.02-23.55.24:875][947]LogHMD: Freeing textureSet 0x0000028780CFAAE0
+[2017.06.02-23.55.25:010][947]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.56.55:588][230]Candidate modules for hot reload:
+[2017.06.02-23.56.55:588][230]  VRfpsPrototype
+[2017.06.02-23.56.55:588][230]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 7842 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.02-23.56.55:591][230]Warning: Starting HotReload took  0.0s.
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 9:57:17 AM
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info Parsing headers for VRfpsPrototypeEditor
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\Development\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info Reflection code generated for VRfpsPrototypeEditor in 4.5426283 seconds
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info VRfpsPrototype.generated.cpp
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info [3/4] Link UE4Editor-VRfpsPrototype-7842.dll
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info [4/4] Link UE4Editor-VRfpsPrototype-7842.lib
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-7842.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-7842.exp
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-7842.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-7842.suppressed.exp
+[2017.06.02-23.57.17:518][602]CompilerResultsLog: Info Total build time: 21.61 seconds (Local executor: 15.99 seconds)
+[2017.06.02-23.57.17:518][602]LogMainFrame: MainFrame: Module compiling took 21.936 seconds
+[2017.06.02-23.57.17:655][602]LogClass: Could not find existing class VRFPSPawn in package /Script/VRfpsPrototype for HotReload, assuming new class
+[2017.06.02-23.57.17:656][602]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.57.17:663][602]LogHotReload: Re-instancing VRFPSPawn after hot-reload.
+[2017.06.02-23.57.17:703][602]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.57.17:703][602]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.57.17:716][602]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.57.17:716][602]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.57.17:915][602]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.57.17:940][602]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.57.18:205][602]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.06.02-23.57.18:208][602]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.02-23.57.18:488][602]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2332 classes and 497 folders.
+[2017.06.02-23.57.18:488][602]Display: HotReload took 22.9s.
+[2017.06.02-23.59.13:159][737]LogTemp: Repeting last play command: VR Preview
+[2017.06.02-23.59.13:172][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.59.13:172][737]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.02-23.59.13:172][737]LogPlayLevel: [PlayLevel] Compiling MotionControllerPawn before play...
+[2017.06.02-23.59.13:202][737]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.59.13:202][737]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.59.13:215][737]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.59.13:216][737]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.59.13:226][737]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.59.13:260][737]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.59.13:658][737]LogPlayLevel: PlayLevel: Blueprint regeneration took 485 ms (1 blueprints)
+[2017.06.02-23.59.13:659][737]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.02-23.59.13:659][737]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.02-23.59.13:659][737]LogHMD: New ovr session is created
+[2017.06.02-23.59.13:659][737]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.02-23.59.13:659][737]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 9:59:13 AM)
+[2017.06.02-23.59.13:660][737]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.02-23.59.13:661][737]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.59.13:661][737]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.02-23.59.13:667][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007221s)
+[2017.06.02-23.59.13:667][737]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.02-23.59.13:667][737]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.06.02-23.59.13:668][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008078s)
+[2017.06.02-23.59.13:729][737]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.59.13:737][737]LogInit: FAudioDevice initialized.
+[2017.06.02-23.59.13:840][737]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.02-23.59.13:840][737]LogLoad: Game class is 'GameModeBase'
+[2017.06.02-23.59.13:842][737]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-16.59.13
+[2017.06.02-23.59.13:843][737]LogWorld: Bringing up level for play took: 0.001991
+[2017.06.02-23.59.13:859][737]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.258
+[2017.06.02-23.59.13:860][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.59.13:875][737]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.02-23.59.13:876][737]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x000002878168B640
+[2017.06.02-23.59.14:977][802]LogHMD: Lost Vision Tracking
+[2017.06.02-23.59.16:507][905]LogHMD: Vision Tracking Acquired
+[2017.06.02-23.59.17:263][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.02-23.59.17:267][955]LogHMD: Destroying ovr session
+[2017.06.02-23.59.17:267][955]LogHMD: Freeing textureSet 0x000002878168B640
+[2017.06.02-23.59.17:410][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.00.28:848][649]LogSavePackage: Save=209.61ms
+[2017.06.03-00.00.28:848][649]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_Auto3A897C1834CCB7BA327B178ABDF3FF89B.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap'
+[2017.06.03-00.00.28:850][649]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap
+[2017.06.03-00.00.28:852][649]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.239
+[2017.06.03-00.00.28:852][649]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.239
+[2017.06.03-00.00.28:854][649]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2017.06.03-00.00.28:854][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2017.06.03-00.00.28:996][649]LogSavePackage: Save=136.67ms
+[2017.06.03-00.00.28:996][649]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerPawn_Auto3CFC45B0C48B5387B7AE326AB530B60CD.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto3.uasset'
+[2017.06.03-00.00.28:998][649]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto3.uasset
+[2017.06.03-00.00.28:998][649]LogFileHelpers: Auto-saving content packages took 0.145
+[2017.06.03-00.02.21:293][300]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.21:293][300]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.31:879][935]LogEditorTransaction: Undo Rename Component Variable
+[2017.06.03-00.02.32:760][990]LogEditorTransaction: Undo Make New Scene Root
+[2017.06.03-00.02.37:547][261]LogTemp: Repeting last play command: VR Preview
+[2017.06.03-00.02.37:560][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.02.37:560][261]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.03-00.02.37:560][261]LogPlayLevel: [PlayLevel] Compiling MotionControllerPawn before play...
+[2017.06.03-00.02.37:591][261]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.37:591][261]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.37:602][261]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.37:602][261]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.37:603][261]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.37:635][261]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.37:917][261]LogPlayLevel: PlayLevel: Blueprint regeneration took 357 ms (1 blueprints)
+[2017.06.03-00.02.37:918][261]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.03-00.02.37:918][261]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.03-00.02.37:918][261]LogHMD: New ovr session is created
+[2017.06.03-00.02.37:918][261]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.03-00.02.37:918][261]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 10:02:37 AM)
+[2017.06.03-00.02.37:919][261]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.03-00.02.37:919][261]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.37:920][261]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.02.37:926][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007295s)
+[2017.06.03-00.02.37:926][261]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.03-00.02.37:926][261]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.06.03-00.02.37:927][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008114s)
+[2017.06.03-00.02.37:974][261]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-00.02.37:981][261]LogInit: FAudioDevice initialized.
+[2017.06.03-00.02.38:092][261]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.03-00.02.38:092][261]LogLoad: Game class is 'GameModeBase'
+[2017.06.03-00.02.38:094][261]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-17.02.38
+[2017.06.03-00.02.38:095][261]LogWorld: Bringing up level for play took: 0.001970
+[2017.06.03-00.02.38:113][261]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.513
+[2017.06.03-00.02.38:114][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.02.38:132][261]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.03-00.02.38:134][261]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000028704DF9010
+[2017.06.03-00.02.43:166][580]LogHMD: Lost Vision Tracking
+[2017.06.03-00.02.44:209][648]LogHMD: Vision Tracking Acquired
+[2017.06.03-00.03.04:052][309]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.03.04:056][309]LogHMD: Destroying ovr session
+[2017.06.03-00.03.04:056][309]LogHMD: Freeing textureSet 0x0000028704DF9010
+[2017.06.03-00.03.04:223][309]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.08.37:529][ 33]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2017.06.03-00.08.58:444][525]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.03-00.10.56:391][107]LogSavePackage: Save=215.69ms
+[2017.06.03-00.10.56:391][107]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_Auto4751BC17944F6C1E3ECD4308585F8EA5B.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto4.umap'
+[2017.06.03-00.10.56:393][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto4.umap
+[2017.06.03-00.10.56:394][107]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.246
+[2017.06.03-00.10.56:394][107]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.246
+[2017.06.03-00.10.56:397][107]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2017.06.03-00.10.56:397][107]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2017.06.03-00.10.56:547][107]LogSavePackage: Save=143.98ms
+[2017.06.03-00.10.56:547][107]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerPawn_Auto4E0D8DBA945989821E2A87FA764EC996E.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto4.uasset'
+[2017.06.03-00.10.56:549][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto4.uasset
+[2017.06.03-00.10.56:549][107]LogFileHelpers: Auto-saving content packages took 0.154
+[2017.06.03-00.16.41:015][ 34]Candidate modules for hot reload:
+[2017.06.03-00.16.41:015][ 34]  VRfpsPrototype
+[2017.06.03-00.16.41:015][ 34]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 1961 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.03-00.16.41:017][ 34]Warning: Starting HotReload took  0.0s.
+[2017.06.03-00.16.54:832][669]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 10:16:54 AM
+[2017.06.03-00.16.54:832][669]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.03-00.16.54:832][669]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.06.03-00.16.54:832][669]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.03-00.16.54:832][669]CompilerResultsLog:Error: Error C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototype\VRFPSPawn.cpp(71) : error C3861: 'ConsumeInputVector': identifier not found
+[2017.06.03-00.16.54:832][669]CompilerResultsLog:Error: Error C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototype\VRFPSPawn.cpp(71) : error C2228: left of '.GetClampedToMaxSize' must have class/struct/union
+[2017.06.03-00.16.54:832][669]CompilerResultsLog:Error: Error C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototype\VRFPSPawn.cpp(71) : note: type is 'unknown-type'
+[2017.06.03-00.16.54:832][669]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Binaries\Win64\UE4Editor-VRfpsPrototype-1961.dll
+[2017.06.03-00.16.54:832][669]CompilerResultsLog: Info Total build time: 13.59 seconds (Local executor: 0.00 seconds)
+[2017.06.03-00.16.54:833][669]LogMainFrame: MainFrame: Module compiling took 13.824 seconds
+[2017.06.03-00.16.54:833][669]Warning: HotReload failed, recompile failed
+[2017.06.03-00.16.58:953][148]LogVSAccessor:Warning: Couldn't goto line number '71' in 'C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototype\VRFPSPawn.cpp'
+[2017.06.03-00.17.10:812][985]LogSavePackage: Save=207.32ms
+[2017.06.03-00.17.10:812][985]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap6741CBF246930C1E3A588285A00D5CB4.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2017.06.03-00.17.10:816][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.06.03-00.17.11:004][985]LogSavePackage: Save=156.76ms
+[2017.06.03-00.17.11:004][985]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_BuiltData77903AFA4C35C0C236874BB56FE3CD15.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2017.06.03-00.17.11:006][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.06.03-00.22.45:338][952]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.06.03-00.22.45:339][952]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.03-00.22.45:339][952]LogMaterial:Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2017.06.03-00.23.21:865][205]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.03-00.25.04:177][630]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.03-00.27.29:592][846]LogSavePackage: Save=213.00ms
+[2017.06.03-00.27.29:592][846]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_Auto5B7D0AA424419749616183C9927ACBE35.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto5.umap'
+[2017.06.03-00.27.29:594][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto5.umap
+[2017.06.03-00.27.29:597][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.245
+[2017.06.03-00.27.29:597][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.245
+[2017.06.03-00.27.29:598][846]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/VRGameMode] ([1] browsable assets)...
+[2017.06.03-00.27.29:599][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/VRGameMode]
+[2017.06.03-00.27.29:609][846]LogSavePackage: Save=7.30ms
+[2017.06.03-00.27.29:609][846]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/VRGameMode_Auto565A4722E465221E868624B9C51F2B3A6.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/VRGameMode_Auto5.uasset'
+[2017.06.03-00.27.29:611][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/VRGameMode_Auto5.uasset
+[2017.06.03-00.27.29:611][846]LogFileHelpers: Auto-saving content packages took 0.013
+[2017.06.03-00.27.57:234][201]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.03-00.28.03:290][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.03-00.28.03:886][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GameStateBase_0' or package '/Engine/Transient'.
+[2017.06.03-00.28.03:886][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.06.03-00.28.03:886][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.06.03-00.28.03:886][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_VRGameMode_C_1' or package '/Engine/Transient'.
+[2017.06.03-00.28.03:886][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.03-00.28.03:886][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.06.03-00.28.03:886][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_VRGameMode_C_0' or package '/Engine/Transient'.
+[2017.06.03-00.28.03:886][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_VRGameMode_C_104' or package '/Engine/Transient'.
+[2017.06.03-00.28.03:887][729]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_VRGameMode_C_103' or package '/Engine/Transient'.
+[2017.06.03-00.28.46:132][404]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.03-00.29.38:560][189]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.03-00.29.38:615][191]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRfpsPrototype
+[2017.06.03-00.29.38:615][191]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.03-00.29.38:615][191]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.06.03-00.29.38:615][191]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.03-00.29.38:615][191]LogTemp: BranchPath = PLUNABOX/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = PLUNABOX/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.06.03-00.29.38:632][192]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\PLuna\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.06.03-00.30.23:588][628]BlueprintLog: New page: Compile VRGameMode
+[2017.06.03-00.30.24:318][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/VRGameMode" FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset" SILENT=true
+[2017.06.03-00.30.24:328][681]LogSavePackage: Save=7.07ms
+[2017.06.03-00.30.24:328][681]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/VRGameModeCC4FE713452FF0B09653828D50C5E5ED.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset'
+[2017.06.03-00.30.24:332][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset
+[2017.06.03-00.30.27:123][987]Candidate modules for hot reload:
+[2017.06.03-00.30.27:123][987]  VRfpsPrototype
+[2017.06.03-00.30.27:123][987]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 9777 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.03-00.30.27:125][987]Warning: Starting HotReload took  0.0s.
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 10:30:52 AM
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info Creating makefile for hot reloading VRfpsPrototype (ini files are newer that UBTMakefile)
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info Parsing headers for VRfpsPrototypeEditor
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\Development\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info Reflection code generated for VRfpsPrototypeEditor in 4.551543 seconds
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info [2/3] Link UE4Editor-VRfpsPrototype-9777.dll
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info [3/3] Link UE4Editor-VRfpsPrototype-9777.lib
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-9777.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-9777.exp
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-9777.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-9777.suppressed.exp
+[2017.06.03-00.30.52:570][  0]CompilerResultsLog: Info Total build time: 25.22 seconds (Local executor: 14.69 seconds)
+[2017.06.03-00.30.52:570][  0]LogMainFrame: MainFrame: Module compiling took 25.453 seconds
+[2017.06.03-00.30.52:706][  0]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.30.52:706][  0]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.30.52:706][  0]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.30.52:709][  0]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.30.52:711][  0]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.06.03-00.30.52:713][  0]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.03-00.30.52:961][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2332 classes and 497 folders.
+[2017.06.03-00.30.52:961][  0]Display: HotReload took 25.8s.
+[2017.06.03-00.30.55:219][269]LogTemp: Repeting last play command: VR Preview
+[2017.06.03-00.30.55:240][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.30.55:240][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-00.30.55:263][269]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.03-00.30.55:263][269]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.03-00.30.55:263][269]LogHMD: New ovr session is created
+[2017.06.03-00.30.55:263][269]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.03-00.30.55:263][269]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 10:30:55 AM)
+[2017.06.03-00.30.55:263][269]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.03-00.30.55:264][269]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.30.55:265][269]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.30.55:271][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007659s)
+[2017.06.03-00.30.55:272][269]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.03-00.30.55:272][269]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2017.06.03-00.30.55:272][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008466s)
+[2017.06.03-00.30.55:336][269]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-00.30.55:344][269]LogInit: FAudioDevice initialized.
+[2017.06.03-00.30.55:439][269]LogLoad: Game class is 'GameMode'
+[2017.06.03-00.30.55:443][269]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-17.30.55
+[2017.06.03-00.30.55:443][269]LogWorld: Bringing up level for play took: 0.002738
+[2017.06.03-00.30.55:443][269]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.03-00.30.55:444][269]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.03-00.30.55:444][269]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.03-00.30.55:446][269]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.03-00.30.55:453][269]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.863
+[2017.06.03-00.30.55:453][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.30.55:474][269]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.03-00.30.55:475][269]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000028780CFBE20
+[2017.06.03-00.31.07:033][311]OCULUS: Error: Prediction interval too high: 0.110071 s, clamping at 0.100000 s
+[2017.06.03-00.31.10:182][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.31.10:189][593]LogHMD: Destroying ovr session
+[2017.06.03-00.31.10:189][593]LogHMD: Freeing textureSet 0x0000028780CFBE20
+[2017.06.03-00.31.10:301][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.31.34:517][ 80]Candidate modules for hot reload:
+[2017.06.03-00.31.34:517][ 80]  VRfpsPrototype
+[2017.06.03-00.31.34:517][ 80]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 7010 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.03-00.31.34:518][ 80]Warning: Starting HotReload took  0.0s.
+[2017.06.03-00.31.49:953][912]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 10:31:49 AM
+[2017.06.03-00.31.49:954][912]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.03-00.31.49:954][912]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.06.03-00.31.49:954][912]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.03-00.31.49:954][912]CompilerResultsLog: Info [2/3] Link UE4Editor-VRfpsPrototype-7010.dll
+[2017.06.03-00.31.49:954][912]CompilerResultsLog: Info [3/3] Link UE4Editor-VRfpsPrototype-7010.lib
+[2017.06.03-00.31.49:954][912]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-7010.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-7010.exp
+[2017.06.03-00.31.49:954][912]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-7010.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-7010.suppressed.exp
+[2017.06.03-00.31.49:954][912]CompilerResultsLog: Info Total build time: 15.21 seconds (Local executor: 14.38 seconds)
+[2017.06.03-00.31.49:954][912]LogMainFrame: MainFrame: Module compiling took 15.443 seconds
+[2017.06.03-00.31.50:085][912]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.31.50:086][912]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.31.50:086][912]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.31.50:089][912]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.31.50:091][912]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.06.03-00.31.50:094][912]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.03-00.31.50:369][912]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2332 classes and 497 folders.
+[2017.06.03-00.31.50:369][912]Display: HotReload took 15.9s.
+[2017.06.03-00.31.52:201][126]LogTemp: Repeting last play command: VR Preview
+[2017.06.03-00.31.52:215][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.31.52:215][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-00.31.52:233][126]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.03-00.31.52:233][126]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.03-00.31.52:233][126]LogHMD: New ovr session is created
+[2017.06.03-00.31.52:233][126]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.03-00.31.52:233][126]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 10:31:52 AM)
+[2017.06.03-00.31.52:233][126]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.03-00.31.52:234][126]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.31.52:234][126]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.31.52:244][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010301s)
+[2017.06.03-00.31.52:244][126]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.03-00.31.52:244][126]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.06.03-00.31.52:244][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.011283s)
+[2017.06.03-00.31.52:323][126]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-00.31.52:329][126]LogInit: FAudioDevice initialized.
+[2017.06.03-00.31.52:420][126]LogLoad: Game class is 'GameMode'
+[2017.06.03-00.31.52:423][126]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-17.31.52
+[2017.06.03-00.31.52:424][126]LogWorld: Bringing up level for play took: 0.002212
+[2017.06.03-00.31.52:424][126]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.03-00.31.52:424][126]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.03-00.31.52:424][126]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.03-00.31.52:427][126]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.03-00.31.52:435][126]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.154
+[2017.06.03-00.31.52:436][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.31.52:457][126]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.03-00.31.52:459][126]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x00000287811D4560
+[2017.06.03-00.32.08:695][570]Cmd: SELECT NONE
+[2017.06.03-00.32.26:969][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.32.26:972][538]LogHMD: Destroying ovr session
+[2017.06.03-00.32.26:972][538]LogHMD: Freeing textureSet 0x00000287811D4560
+[2017.06.03-00.32.27:121][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.32.28:006][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/VRGameMode" FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset" SILENT=true
+[2017.06.03-00.32.28:018][592]LogSavePackage: Save=6.14ms
+[2017.06.03-00.32.28:018][592]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/VRGameMode791226DA4E52BE3181B6248D34FA7535.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset'
+[2017.06.03-00.32.28:020][592]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset
+[2017.06.03-00.32.28:727][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/VRGameMode" FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset" SILENT=true
+[2017.06.03-00.32.28:741][648]LogSavePackage: Save=9.01ms
+[2017.06.03-00.32.28:741][648]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/VRGameMode0947FAF947D021847C1CC9A3A2A7C1A8.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset'
+[2017.06.03-00.32.28:744][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRGameMode.uasset
+[2017.06.03-00.32.30:482][843]Candidate modules for hot reload:
+[2017.06.03-00.32.30:482][843]  VRfpsPrototype
+[2017.06.03-00.32.30:483][843]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 8200 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.03-00.32.30:484][843]Warning: Starting HotReload took  0.0s.
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 10:32:46 AM
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: Info VRFPSPawn.cpp
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: Info [2/3] Link UE4Editor-VRfpsPrototype-8200.dll
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: Info [3/3] Link UE4Editor-VRfpsPrototype-8200.lib
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-8200.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-8200.exp
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-8200.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-8200.suppressed.exp
+[2017.06.03-00.32.46:045][689]CompilerResultsLog: Info Total build time: 15.35 seconds (Local executor: 14.38 seconds)
+[2017.06.03-00.32.46:045][689]LogMainFrame: MainFrame: Module compiling took 15.569 seconds
+[2017.06.03-00.32.46:177][689]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.32.46:177][689]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.32.46:178][689]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.32.46:180][689]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.32.46:183][689]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.06.03-00.32.46:186][689]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.03-00.32.46:442][689]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2332 classes and 497 folders.
+[2017.06.03-00.32.46:442][689]Display: HotReload took 16.0s.
+[2017.06.03-00.32.47:137][771]LogTemp: Repeting last play command: VR Preview
+[2017.06.03-00.32.47:156][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.32.47:156][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-00.32.47:163][771]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.03-00.32.47:163][771]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.03-00.32.47:163][771]LogHMD: New ovr session is created
+[2017.06.03-00.32.47:163][771]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.03-00.32.47:163][771]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 10:32:47 AM)
+[2017.06.03-00.32.47:163][771]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.03-00.32.47:164][771]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.32.47:164][771]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.32.47:171][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008053s)
+[2017.06.03-00.32.47:172][771]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.03-00.32.47:172][771]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.06.03-00.32.47:172][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.009097s)
+[2017.06.03-00.32.47:252][771]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-00.32.47:259][771]LogInit: FAudioDevice initialized.
+[2017.06.03-00.32.47:357][771]LogLoad: Game class is 'GameMode'
+[2017.06.03-00.32.47:360][771]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-17.32.47
+[2017.06.03-00.32.47:361][771]LogWorld: Bringing up level for play took: 0.002725
+[2017.06.03-00.32.47:361][771]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.03-00.32.47:361][771]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.03-00.32.47:361][771]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.03-00.32.47:364][771]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.03-00.32.47:373][771]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.784
+[2017.06.03-00.32.47:373][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.32.47:397][771]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.03-00.32.47:398][771]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x000002870A0A2420
+[2017.06.03-00.33.13:751][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.33.13:757][ 33]LogHMD: Destroying ovr session
+[2017.06.03-00.33.13:757][ 33]LogHMD: Freeing textureSet 0x000002870A0A2420
+[2017.06.03-00.33.13:885][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.33.26:521][492]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.33.47:285][799]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.03-00.33.54:582][257]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.06.03-00.33.54:611][257]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.33.54:611][257]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.33.54:622][257]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.33.54:622][257]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.33.54:627][257]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.33.54:661][257]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.33.55:226][259]LogSavePackage: Save=140.45ms
+[2017.06.03-00.33.55:226][259]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerPawnD33D4A454ED92C5C9CE4C28A62130D8B.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.06.03-00.33.55:230][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.06.03-00.34.12:011][290]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.12:011][290]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.14:703][470]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.06.03-00.34.14:733][470]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.14:733][470]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.14:743][470]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.14:743][470]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.14:745][470]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.14:776][470]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.15:625][494]LogSavePackage: Save=140.05ms
+[2017.06.03-00.34.15:625][494]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerPawnEA58303F4DA2E87717DF99ADE04DC7F3.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.06.03-00.34.15:629][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.06.03-00.34.28:220][392]LogTemp: Repeting last play command: VR Preview
+[2017.06.03-00.34.28:237][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.34.28:237][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-00.34.28:237][392]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.03-00.34.28:237][392]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.03-00.34.28:237][392]LogHMD: New ovr session is created
+[2017.06.03-00.34.28:238][392]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.03-00.34.28:238][392]PIE: New page: PIE session: MotionControllerMap (Jun 2, 2017, 10:34:28 AM)
+[2017.06.03-00.34.28:238][392]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.03-00.34.28:239][392]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.28:239][392]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.34.28:245][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007248s)
+[2017.06.03-00.34.28:246][392]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.03-00.34.28:246][392]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.06.03-00.34.28:246][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008114s)
+[2017.06.03-00.34.28:299][392]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-00.34.28:305][392]LogInit: FAudioDevice initialized.
+[2017.06.03-00.34.28:415][392]LogLoad: Game class is 'GameMode'
+[2017.06.03-00.34.28:418][392]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.02-17.34.28
+[2017.06.03-00.34.28:418][392]LogWorld: Bringing up level for play took: 0.002470
+[2017.06.03-00.34.28:419][392]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.03-00.34.28:419][392]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.03-00.34.28:419][392]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.03-00.34.28:421][392]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.03-00.34.28:441][392]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.147
+[2017.06.03-00.34.28:442][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.34.28:463][392]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.03-00.34.28:466][392]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000028784D3B6A0
+[2017.06.03-00.34.38:534][250]LogHMD: Lost Vision Tracking
+[2017.06.03-00.34.38:678][263]LogHMD: Vision Tracking Acquired
+[2017.06.03-00.34.52:695][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.34.52:699][504]LogHMD: Destroying ovr session
+[2017.06.03-00.34.52:699][504]LogHMD: Freeing textureSet 0x0000028784D3B6A0
+[2017.06.03-00.34.52:850][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.03-00.39.10:425][505]LogSavePackage: Save=213.33ms
+[2017.06.03-00.39.10:425][505]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_Auto6D432BC7944FF10575DF54FB6649018B9.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto6.umap'
+[2017.06.03-00.39.10:427][505]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto6.umap
+[2017.06.03-00.39.10:428][505]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.244
+[2017.06.03-00.39.10:428][505]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.244
+[2017.06.03-00.45.52:407][734]Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype Win64 Development -editorrecompile "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" -invalidatemakefilesonly
+[2017.06.03-00.45.52:710][734]Invalidating makefiles only in this run.
+[2017.06.03-00.45.52:825][734]Candidate modules for hot reload:
+[2017.06.03-00.45.52:825][734]  VRfpsPrototype
+[2017.06.03-00.45.52:825][734]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe VRfpsPrototype -ModuleWithSuffix VRfpsPrototype 4790 Win64 Development -editorrecompile -canskiplink "C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/VRfpsPrototype.uproject" ]
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: New page: Compilation - Jun 2, 2017, 10:46:04 AM
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info Creating makefile for hot reloading VRfpsPrototype (no existing makefile)
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info Parsing headers for VRfpsPrototypeEditor
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\Development\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info Reflection code generated for VRfpsPrototypeEditor in 3.9604905 seconds
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info VRfpsPrototype.generated.cpp
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info VRFPSCharacter.cpp
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info [3/4] Link UE4Editor-VRfpsPrototype-4790.dll
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info [4/4] Link UE4Editor-VRfpsPrototype-4790.lib
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-4790.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-4790.exp
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info    Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-4790.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VRfpsPrototype-4790.suppressed.exp
+[2017.06.03-00.46.04:618][734]CompilerResultsLog: Info Total build time: 11.60 seconds (Local executor: 2.65 seconds)
+[2017.06.03-00.46.04:618][734]LogMainFrame: MainFrame: Module compiling took 11.800 seconds
+[2017.06.03-00.46.04:756][734]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.46.04:757][734]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.46.04:757][734]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.46.04:757][734]LogClass: Could not find existing class VRFPSCharacter in package /Script/VRfpsPrototype for HotReload, assuming new class
+[2017.06.03-00.46.04:760][734]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.03-00.46.04:762][734]LogContentBrowser: Native class hierarchy updated for 'VRfpsPrototype' in 0.0022 seconds. Added 2 classes and 2 folders.
+[2017.06.03-00.46.04:765][734]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.03-00.46.05:042][734]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2333 classes and 497 folders.
+[2017.06.03-00.46.05:042][734]Display: HotReload took 12.2s.
+[2017.06.03-00.46.05:043][734]Warning: HotReload operation took 12.2s.
+[2017.06.03-00.46.05:173][734]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Source/VRfpsPrototype/VRFPSCharacter.h'
+[2017.06.03-00.46.05:276][734]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Source/VRfpsPrototype/VRFPSCharacter.cpp'
+[2017.06.03-00.51.23:285][565]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2017.06.03-00.51.30:468][158]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.03-00.51.39:103][570]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn from VRFPSPawn to VRFPSCharacter...
+[2017.06.03-00.51.39:132][570]BlueprintLog: New page: Compile MotionControllerPawn

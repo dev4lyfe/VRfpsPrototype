@@ -59,7 +59,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRFPSPawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AVRFPSPawn)
 
 
-#define VRfpsPrototype_Source_VRfpsPrototype_VRFPSPawn_h_12_PRIVATE_PROPERTY_OFFSET
+#define VRfpsPrototype_Source_VRfpsPrototype_VRFPSPawn_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ThisMovementComponent() { return STRUCT_OFFSET(AVRFPSPawn, ThisMovementComponent); }
+
+
 #define VRfpsPrototype_Source_VRfpsPrototype_VRFPSPawn_h_9_PROLOG
 #define VRfpsPrototype_Source_VRfpsPrototype_VRFPSPawn_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

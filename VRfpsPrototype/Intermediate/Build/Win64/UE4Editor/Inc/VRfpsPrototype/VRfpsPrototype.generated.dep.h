@@ -5,6 +5,9 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
+#ifndef VRFPSPROTOTYPE_VRFPSCharacter_generated_h
+	#include "VRFPSCharacter.h"
+#endif
 #ifndef VRFPSPROTOTYPE_VRFPSPawn_generated_h
 	#include "VRFPSPawn.h"
 #endif

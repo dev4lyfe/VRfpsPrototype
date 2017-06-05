@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Core.h"
 #include "GameFramework/Pawn.h"
 #include "VRFPSPawn.generated.h"
 
@@ -18,6 +18,15 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	virtual UPawnMovementComponent* GetMovementComponent() const override;
+
+	void MoveForward(float Val);
+	void MoveRight(float Val);
+
+	void HandleRotation(float Val);
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	class UPawnMovementComponent* ThisMovementComponent;
 
 public:	
 	// Called every frame
