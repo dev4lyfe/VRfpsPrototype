@@ -8,6 +8,9 @@
 #ifndef VRFPSPROTOTYPE_BTService_CheckForPlayer_generated_h
 	#include "BTService_CheckForPlayer.h"
 #endif
+#ifndef VRFPSPROTOTYPE_BTTask_MoveToPlayer_generated_h
+	#include "BTTask_MoveToPlayer.h"
+#endif
 #ifndef VRFPSPROTOTYPE_EnemyAI_generated_h
 	#include "EnemyAI.h"
 #endif

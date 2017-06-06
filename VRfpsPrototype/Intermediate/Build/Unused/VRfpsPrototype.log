@@ -1,13 +1,15 @@
-﻿  Parsing headers for VRfpsPrototypeEditor
+﻿  Creating makefile for VRfpsPrototypeEditor (no existing makefile)
+  Parsing headers for VRfpsPrototypeEditor
     Running UnrealHeaderTool "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\VRfpsPrototype.uproject" "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\VRfpsPrototypeEditor\DebugGame\VRfpsPrototypeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for VRfpsPrototypeEditor in 8.8237674 seconds
-  Performing 5 actions (9 in parallel)
+  Reflection code generated for VRfpsPrototypeEditor in 12.5781283 seconds
+  Deleting old hot reload file: "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Binaries\Win64\UE4Editor-VRfpsPrototype-8801-Win64-DebugGame.dll".
+  Deleting old hot reload file: "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Binaries\Win64\UE4Editor-VRfpsPrototype-8801-Win64-DebugGame.pdb".
+  Performing 4 actions (9 in parallel)
+  BTTask_MoveToPlayer.cpp
   VRfpsPrototype.generated.cpp
-  BTService_CheckForPlayer.cpp
-  VRFPSPawn.cpp
-  [4/5] Link UE4Editor-VRfpsPrototype-Win64-DebugGame.dll
-  [5/5] Link UE4Editor-VRfpsPrototype-Win64-DebugGame.lib
+  [3/4] Link UE4Editor-VRfpsPrototype-Win64-DebugGame.dll
+  [4/4] Link UE4Editor-VRfpsPrototype-Win64-DebugGame.lib
      Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-VRfpsPrototype-Win64-DebugGame.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-VRfpsPrototype-Win64-DebugGame.exp
      Creating library C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-VRfpsPrototype-Win64-DebugGame.suppressed.lib and object C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-VRfpsPrototype-Win64-DebugGame.suppressed.exp
   Deploying VRfpsPrototypeEditor Win64 DebugGame...
-  Total build time: 24.46 seconds (Local executor: 13.38 seconds)
+  Total build time: 46.17 seconds (Local executor: 16.58 seconds)

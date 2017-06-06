@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
 "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\VRfpsPrototype\BTService_CheckForPlayer.cpp.obj"
+"C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\VRfpsPrototype\BTTask_MoveToPlayer.cpp.obj"
 "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\VRfpsPrototype\EnemyAI.cpp.obj"
 "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\VRfpsPrototype\EnemyCharacter.cpp.obj"
 "C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Intermediate\Build\Win64\UE4Editor\DebugGame\VRfpsPrototype\VRFPSCharacter.cpp.obj"

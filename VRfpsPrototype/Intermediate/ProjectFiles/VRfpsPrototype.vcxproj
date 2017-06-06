@@ -415,8 +415,10 @@
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Config\DefaultScalability.ini" />
     <ClCompile Include="..\..\Source\VRfpsPrototype\BTService_CheckForPlayer.cpp" />
+    <ClCompile Include="..\..\Source\VRfpsPrototype\BTTask_MoveToPlayer.cpp" />
     <ClCompile Include="..\..\Source\VRfpsPrototype\EnemyAI.cpp" />
     <ClInclude Include="..\..\Source\VRfpsPrototype\BTService_CheckForPlayer.h" />
+    <ClInclude Include="..\..\Source\VRfpsPrototype\BTTask_MoveToPlayer.h" />
     <ClInclude Include="..\..\Source\VRfpsPrototype\EnemyAI.h" />
     <ClCompile Include="..\..\Source\VRfpsPrototype\EnemyCharacter.cpp" />
     <ClCompile Include="..\..\Source\VRfpsPrototype\VRFPSCharacter.cpp" />

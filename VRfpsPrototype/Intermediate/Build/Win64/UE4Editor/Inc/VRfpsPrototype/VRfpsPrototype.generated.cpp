@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCode1VRfpsPrototype() {}
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	AIMODULE_API class UClass* Z_Construct_UClass_UBTService();
+	AIMODULE_API class UClass* Z_Construct_UClass_UBTTask_BlackboardBase();
 	AIMODULE_API class UClass* Z_Construct_UClass_AAIController();
 	AIMODULE_API class UClass* Z_Construct_UClass_UBehaviorTreeComponent_NoRegister();
 	AIMODULE_API class UClass* Z_Construct_UClass_UBlackboardComponent_NoRegister();
@@ -26,6 +27,8 @@ void EmptyLinkFunctionForGeneratedCode1VRfpsPrototype() {}
 
 	VRFPSPROTOTYPE_API class UClass* Z_Construct_UClass_UBTService_CheckForPlayer_NoRegister();
 	VRFPSPROTOTYPE_API class UClass* Z_Construct_UClass_UBTService_CheckForPlayer();
+	VRFPSPROTOTYPE_API class UClass* Z_Construct_UClass_UBTTask_MoveToPlayer_NoRegister();
+	VRFPSPROTOTYPE_API class UClass* Z_Construct_UClass_UBTTask_MoveToPlayer();
 	VRFPSPROTOTYPE_API class UClass* Z_Construct_UClass_AEnemyAI_NoRegister();
 	VRFPSPROTOTYPE_API class UClass* Z_Construct_UClass_AEnemyAI();
 	VRFPSPROTOTYPE_API class UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
@@ -72,6 +75,43 @@ void EmptyLinkFunctionForGeneratedCode1VRfpsPrototype() {}
 	IMPLEMENT_CLASS(UBTService_CheckForPlayer, 2007840501);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTService_CheckForPlayer(Z_Construct_UClass_UBTService_CheckForPlayer, &UBTService_CheckForPlayer::StaticClass, TEXT("/Script/VRfpsPrototype"), TEXT("UBTService_CheckForPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTService_CheckForPlayer);
+	void UBTTask_MoveToPlayer::StaticRegisterNativesUBTTask_MoveToPlayer()
+	{
+	}
+	UClass* Z_Construct_UClass_UBTTask_MoveToPlayer_NoRegister()
+	{
+		return UBTTask_MoveToPlayer::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UBTTask_MoveToPlayer()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UBTTask_BlackboardBase();
+			Z_Construct_UPackage__Script_VRfpsPrototype();
+			OuterClass = UBTTask_MoveToPlayer::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20100080;
+
+
+				static TCppClassTypeInfo<TCppClassTypeTraits<UBTTask_MoveToPlayer> > StaticCppClassTypeInfo;
+				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BTTask_MoveToPlayer.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BTTask_MoveToPlayer.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	IMPLEMENT_CLASS(UBTTask_MoveToPlayer, 1206744095);
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_MoveToPlayer(Z_Construct_UClass_UBTTask_MoveToPlayer, &UBTTask_MoveToPlayer::StaticClass, TEXT("/Script/VRfpsPrototype"), TEXT("UBTTask_MoveToPlayer"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_MoveToPlayer);
 	void AEnemyAI::StaticRegisterNativesAEnemyAI()
 	{
 	}
@@ -251,8 +291,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/VRfpsPrototype")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x008EEA99;
-			Guid.B = 0x603A70AD;
+			Guid.A = 0x7573F382;
+			Guid.B = 0xFDC3778B;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

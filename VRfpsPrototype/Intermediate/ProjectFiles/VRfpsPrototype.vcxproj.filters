@@ -67,12 +67,18 @@
     <ClInclude Include="..\..\Source\VRfpsPrototype\BTService_CheckForPlayer.h">
       <Filter>Source\VRfpsPrototype</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\VRfpsPrototype\BTTask_MoveToPlayer.h">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\VRfpsPrototype\EnemyCharacter.cpp">
       <Filter>Source\VRfpsPrototype</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\VRfpsPrototype\BTService_CheckForPlayer.cpp">
+      <Filter>Source\VRfpsPrototype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRfpsPrototype\BTTask_MoveToPlayer.cpp">
       <Filter>Source\VRfpsPrototype</Filter>
     </ClCompile>
   </ItemGroup>
