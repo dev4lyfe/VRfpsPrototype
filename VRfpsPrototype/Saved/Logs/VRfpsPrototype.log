@@ -1,9 +1,9 @@
-﻿Log file open, 06/05/17 17:14:33
+﻿Log file open, 06/15/17 14:19:32
 LogInit:Display: Running engine for game: VRfpsPrototype
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(160579623) SRandInit(160579623).
+LogInit:Display: RandInit(-1320942281) SRandInit(-1320942281).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.478710
+LogStats: Stats thread started at 0.119033
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -49,585 +49,760 @@ LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
 LogInit: Compiled (64-bit): May 31 2017 02:03:30
 LogInit: Compiled with Visual C++: 19.00.24215.01
-LogInit: Build Configuration: DebugGame
+LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line:  -skipcompile -debug
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.06-00.14.35:484][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.06-00.14.35:484][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.06-00.14.35:500][  0]LogInit: Computer: PLUNABOX
-[2017.06.06-00.14.35:500][  0]LogInit: User: pluna
-[2017.06.06-00.14.35:500][  0]LogInit: CPU Page size=4096, Cores=6
-[2017.06.06-00.14.35:500][  0]LogInit: High frequency timer resolution =3.410073 MHz
-[2017.06.06-00.14.35:500][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.06.06-00.14.35:500][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.06-00.14.35:501][  0]LogMemory: Process Physical Memory: 280.62 MB used, 280.62 MB peak
-[2017.06.06-00.14.35:501][  0]LogMemory: Process Virtual Memory: 270.47 MB used, 270.47 MB peak
-[2017.06.06-00.14.35:501][  0]LogMemory: Physical Memory: 11282.73 MB used,  21383.52 MB free, 32666.25 MB total
-[2017.06.06-00.14.35:501][  0]LogMemory: Virtual Memory: 686.36 MB used,  21383.52 MB free, 134217728.00 MB total
-[2017.06.06-00.14.35:834][  0]LogInit: Using OS detected language (en-US).
-[2017.06.06-00.14.35:834][  0]LogInit: Using OS detected locale (en-US).
-[2017.06.06-00.14.35:844][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.06.06-00.14.37:550][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.06-00.14.37:592][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.06.06-00.14.37:592][  0]LogD3D11RHI:       4059/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.06.06-00.14.37:599][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.06-00.14.37:599][  0]LogD3D11RHI:       0/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.06-00.14.37:599][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.06-00.14.37:607][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.06-00.14.37:607][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.06-00.14.37:608][  0]LogWindows: EnumDisplayDevices:
-[2017.06.06-00.14.37:608][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2017.06.06-00.14.37:609][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.06.06-00.14.37:610][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.06.06-00.14.37:610][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.06.06-00.14.37:610][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.06.06-00.14.37:610][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.06.06-00.14.37:610][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
-[2017.06.06-00.14.37:611][  0]LogD3D11RHI:      Driver Date: 8-1-2016
-[2017.06.06-00.14.37:611][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.06-00.14.37:638][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.06-00.14.37:656][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.06.06-00.14.37:749][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Intermediate/Shaders/WorkingDirectory/9320/).
-[2017.06.06-00.14.37:749][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PLuna/AppData/Local/Temp/UnrealShaderWorkingDir/E86234DD463A7A0B64C06E8AF09D8835/'.
-[2017.06.06-00.14.37:749][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.06-00.14.40:071][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.06-00.14.40:241][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.06-00.14.40:417][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.06-00.14.40:583][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.06-00.14.40:765][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.06-00.14.40:957][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.06-00.14.41:138][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.06-00.14.41:325][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.06-00.14.41:503][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.06-00.14.41:688][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.06-00.14.41:860][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.06-00.14.42:029][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.06-00.14.42:189][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.06-00.14.42:348][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.06-00.14.42:521][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.06-00.14.42:861][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.06-00.14.42:862][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.06-00.14.43:015][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.06-00.14.43:290][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.06-00.14.43:386][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.06-00.14.43:543][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.06-00.14.43:699][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.06-00.14.43:860][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.06-00.14.44:036][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.06-00.14.44:036][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.06-00.14.45:898][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.06-00.14.46:018][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.06-00.14.46:018][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.06.06-00.14.46:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.06-00.14.46:018][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.06-00.14.46:019][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.06-00.14.46:019][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.06-00.14.46:040][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.06-00.14.46:054][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PLuna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.06-00.14.46:071][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.06.06-00.14.46:071][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.06-00.14.46:074][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.06-00.14.46:074][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.06-00.14.46:688][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.06-00.14.46:789][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.06-00.14.47:202][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.06-00.14.47:373][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.06-00.14.47:538][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.06-00.14.47:539][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.06-00.14.47:539][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.06-00.14.48:762][  0]LogNetVersion: VRfpsPrototype , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1376506324)
-[2017.06.06-00.14.48:900][  0]LogAssetRegistry: FAssetRegistry took 0.0317 seconds to start up
-[2017.06.06-00.14.49:053][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.062638 seconds
-[2017.06.06-00.14.49:062][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.06.06-00.14.49:063][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.06.06-00.14.49:063][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.06-00.14.49:326][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.06-00.14.56:309][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.06-00.14.56:411][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.06-00.14.57:483][  0]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
-[2017.06.06-00.14.57:483][  0]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 2145]
-[2017.06.06-00.14.57:483][  0]LogStats:             FDebug::EnsureFailed -  0.000 s
-[2017.06.06-00.21.17:275][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.06-00.21.18:295][  0]SourceControl: Info Source control is disabled
-[2017.06.06-00.21.18:336][  0]SourceControl: Info Source control is disabled
-[2017.06.06-00.21.18:468][  0]SourceControl: Info Source control is disabled
-[2017.06.06-00.21.18:606][  0]SourceControl: Info Source control is disabled
-[2017.06.06-00.21.20:632][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.06.06-00.21.22:305][  0]LogEngine: Initializing Engine...
-[2017.06.06-00.21.22:306][  0]LogHMD: Oculus plugin initialized. Version: 4.16.1-3466753+++UE4+Release-4.16, LibOVR: 1.15.0, SDK: 1.12.0, built May 31 2017, 02:11:10
-[2017.06.06-00.21.22:524][  0]OCULUS: Debug: [HMDState] Using default profile default
-[2017.06.06-00.21.22:524][  0]OCULUS: Info: IAD changed to 59.9mm
-[2017.06.06-00.21.22:567][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.06-00.21.22:567][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.06-00.21.22:903][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.06-00.21.22:919][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.06-00.21.22:937][  0]LogInit: FAudioDevice initialized.
-[2017.06.06-00.21.22:986][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.06-00.21.22:999][  0]LogInit: Texture streaming: Enabled
-[2017.06.06-00.21.23:258][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.06-00.21.23:258][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={949A361D-4C19-4DA3-E284-C48C55ABED38}
-[2017.06.06-00.21.23:857][  0]LogInit: Transaction tracking system initialized
-[2017.06.06-00.21.24:755][  0]BlueprintLog: New page: Editor Load
-[2017.06.06-00.21.27:440][  0]LocalizationService: Info Localization service is disabled
-[2017.06.06-00.21.29:296][  0]LogConsoleResponse:Display: 
-[2017.06.06-00.21.29:546][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.06-00.21.29:546][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.06-00.21.30:156][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/' took 0.02s
-[2017.06.06-00.21.32:597][  0]SourceControl: Info Source control is disabled
-[2017.06.06-00.21.32:598][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.06-00.21.32:598][  0]LightingResults: New page: Lighting Build
-[2017.06.06-00.21.32:703][  0]MapCheck: New page: Map Check
-[2017.06.06-00.21.32:703][  0]LightingResults: New page: Lighting Build
-[2017.06.06-00.21.32:793][  0]LogAIModule: Creating AISystem for world StartupMap
-[2017.06.06-00.21.32:803][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.06-00.21.32:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.06-00.21.32:959][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 147.597ms to complete.
-[2017.06.06-00.21.32:959][  0]LogFileHelpers: Loading map 'StartupMap' took 0.362
-[2017.06.06-00.21.33:154][  0]LogCollectionManager: Loaded 0 collections in 0.001767 seconds
-[2017.06.06-00.21.33:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Collections/' took 0.01s
-[2017.06.06-00.21.33:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Developers/pluna/Collections/' took 0.01s
-[2017.06.06-00.21.33:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Collections/' took 0.01s
-[2017.06.06-00.21.33:314][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.06.06-00.21.33:324][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2335 classes and 493 folders.
-[2017.06.06-00.21.33:497][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
-[2017.06.06-00.21.33:580][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
-[2017.06.06-00.21.33:702][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
-[2017.06.06-00.21.33:781][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.06-00.21.33:788][  0]LogSlate: Took 0.000639 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.06-00.21.33:791][  0]LogSlate: Took 0.000694 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.06-00.21.33:796][  0]LogSlate: Took 0.000545 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.06-00.21.33:901][  0]LogRenderer: Reallocating scene render targets to support 1056x556 NumSamples 1 (Frame:1).
-[2017.06.06-00.21.33:999][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.06-00.21.34:143][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
-[2017.06.06-00.21.34:143][  0]LogLoad: (Engine Initialization) Total time: 423.23 seconds
-[2017.06.06-00.21.34:143][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
-[2017.06.06-00.21.34:143][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.06.06-00.21.34:143][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.06.06-00.21.34:483][  0]LogOcInput: OculusInput pre-init called
-[2017.06.06-00.21.34:495][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.15.0
-[2017.06.06-00.21.34:495][  0]LogHMD: Starting GearVRController plugin
-[2017.06.06-00.21.34:511][  0]LogAssetRegistry: Asset discovery search completed in 405.6182 seconds
-[2017.06.06-00.21.34:513][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.06.06-00.21.34:513][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000169 seconds (updated 0 objects)
-[2017.06.06-00.21.34:516][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.06-00.21.34:567][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.06-00.23.26:256][ 83]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.06-00.23.26:512][ 83]LogAIModule: Creating AISystem for world MotionControllerMap
-[2017.06.06-00.23.26:532][ 83]Cmd: MAP LOAD FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.06-00.23.26:532][ 83]LightingResults: New page: Lighting Build
-[2017.06.06-00.23.26:533][ 83]LoadErrors: New page: Loading map: MotionControllerMap.umap
-[2017.06.06-00.23.26:534][ 83]MapCheck: New page: Map Check
-[2017.06.06-00.23.26:534][ 83]LightingResults: New page: Lighting Build
-[2017.06.06-00.23.26:545][ 83]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.06-00.23.26:577][ 83]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.06-00.23.26:726][ 83]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 149.376ms to complete.
-[2017.06.06-00.23.26:727][ 83]LogFileHelpers: Loading map 'MotionControllerMap' took 0.196
-[2017.06.06-00.23.50:045][849]LogTemp: Repeting last play command: VR Preview
-[2017.06.06-00.23.50:072][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.23.50:072][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.06-00.23.50:073][849]OCULUS: Debug: [HMDState] Using default profile default
-[2017.06.06-00.23.50:073][849]OCULUS: Info: IAD changed to 59.9mm
-[2017.06.06-00.23.50:073][849]LogHMD: New ovr session is created
-[2017.06.06-00.23.50:073][849]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2017.06.06-00.23.50:074][849]PIE: New page: PIE session: MotionControllerMap (Jun 5, 2017, 10:23:50 AM)
-[2017.06.06-00.23.50:074][849]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2017.06.06-00.23.50:083][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008961s)
-[2017.06.06-00.23.50:084][849]LogAIModule: Creating AISystem for world MotionControllerMap
-[2017.06.06-00.23.50:084][849]LogPlayLevel: PIE: World Init took: (0.000738s)
-[2017.06.06-00.23.50:084][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010192s)
-[2017.06.06-00.23.50:092][849]LogHMD: Vision Tracking Acquired
-[2017.06.06-00.23.50:096][849]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.06-00.23.50:105][849]LogInit: FAudioDevice initialized.
-[2017.06.06-00.23.50:219][849]LogLoad: Game class is 'GameMode'
-[2017.06.06-00.23.50:223][849]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.05-17.23.50
-[2017.06.06-00.23.50:224][849]LogWorld: Bringing up level for play took: 0.002988
-[2017.06.06-00.23.50:330][849]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 11 classes and 0 folders.
-[2017.06.06-00.23.50:330][849]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.06-00.23.50:330][849]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.06-00.23.50:330][849]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.06.06-00.23.50:331][849]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.06.06-00.23.50:336][849]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.68
-[2017.06.06-00.23.50:337][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.23.50:353][849]LogHMD: Reallocation of eye buffer was requested
-[2017.06.06-00.23.50:356][849]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000020E2879C6F0
-[2017.06.06-00.23.50:385][849]LogRenderer: Reallocating scene render targets to support 2712x1600 NumSamples 1 (Frame:1).
-[2017.06.06-00.23.55:196][281]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.23.55:208][281]LogHMD: Destroying ovr session
-[2017.06.06-00.23.55:208][281]LogHMD: Freeing textureSet 0x0000020E2879C6F0
-[2017.06.06-00.23.55:323][281]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.23.59:766][810]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
-[2017.06.06-00.24.01:500][  3]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.06.06-00.24.09:207][870]LogSavePackage: Save=6.07ms
-[2017.06.06-00.24.09:207][870]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/EnemyBT33C1F93246D9A081792411A69402BD35.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/AI/EnemyBT.uasset'
-[2017.06.06-00.24.09:212][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/AI/EnemyBT.uasset
-[2017.06.06-00.24.20:974][152]LogTemp: Repeting last play command: VR Preview
-[2017.06.06-00.24.20:991][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.24.20:995][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.06-00.24.21:030][152]OCULUS: Debug: [HMDState] Using default profile default
-[2017.06.06-00.24.21:030][152]OCULUS: Info: IAD changed to 59.9mm
-[2017.06.06-00.24.21:030][152]LogHMD: New ovr session is created
-[2017.06.06-00.24.21:030][152]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2017.06.06-00.24.21:030][152]PIE: New page: PIE session: MotionControllerMap (Jun 5, 2017, 10:24:21 AM)
-[2017.06.06-00.24.21:030][152]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2017.06.06-00.24.21:038][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007602s)
-[2017.06.06-00.24.21:039][152]LogAIModule: Creating AISystem for world MotionControllerMap
-[2017.06.06-00.24.21:039][152]LogPlayLevel: PIE: World Init took: (0.000706s)
-[2017.06.06-00.24.21:039][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008737s)
-[2017.06.06-00.24.21:049][152]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.06-00.24.21:057][152]LogInit: FAudioDevice initialized.
-[2017.06.06-00.24.21:150][152]LogLoad: Game class is 'GameMode'
-[2017.06.06-00.24.21:153][152]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.05-17.24.21
-[2017.06.06-00.24.21:154][152]LogWorld: Bringing up level for play took: 0.002511
-[2017.06.06-00.24.21:154][152]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.06-00.24.21:155][152]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.06-00.24.21:155][152]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.06.06-00.24.21:155][152]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.06.06-00.24.21:161][152]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.495
-[2017.06.06-00.24.21:162][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.24.21:187][152]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
-[2017.06.06-00.24.21:189][152]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000020E2879E380
-[2017.06.06-00.24.29:865][932]LogHMD: Lost Vision Tracking
-[2017.06.06-00.24.30:741][ 11]LogHMD: Vision Tracking Acquired
-[2017.06.06-00.24.31:264][ 58]LogHMD: Lost Vision Tracking
-[2017.06.06-00.24.32:752][192]LogHMD: Vision Tracking Acquired
-[2017.06.06-00.24.39:442][793]LogHMD: Lost Vision Tracking
-[2017.06.06-00.24.39:453][794]LogHMD: Vision Tracking Acquired
-[2017.06.06-00.24.41:654][992]LogHMD: Lost Vision Tracking
-[2017.06.06-00.24.41:665][993]LogHMD: Vision Tracking Acquired
-[2017.06.06-00.24.55:733][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.24.55:744][259]LogHMD: Destroying ovr session
-[2017.06.06-00.24.55:744][259]LogHMD: Freeing textureSet 0x0000020E2879E380
-[2017.06.06-00.24.55:884][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.24.57:746][475]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_BP_C (EnemyCharacter_BP)
-[2017.06.06-00.25.13:167][270]LogTemp: Repeting last play command: VR Preview
-[2017.06.06-00.25.13:179][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.25.13:183][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.06-00.25.13:197][270]OCULUS: Debug: [HMDState] Using default profile default
-[2017.06.06-00.25.13:197][270]OCULUS: Info: IAD changed to 59.9mm
-[2017.06.06-00.25.13:197][270]LogHMD: New ovr session is created
-[2017.06.06-00.25.13:197][270]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2017.06.06-00.25.13:197][270]PIE: New page: PIE session: MotionControllerMap (Jun 5, 2017, 10:25:13 AM)
-[2017.06.06-00.25.13:198][270]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2017.06.06-00.25.13:205][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007587s)
-[2017.06.06-00.25.13:206][270]LogAIModule: Creating AISystem for world MotionControllerMap
-[2017.06.06-00.25.13:206][270]LogPlayLevel: PIE: World Init took: (0.000694s)
-[2017.06.06-00.25.13:206][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008700s)
-[2017.06.06-00.25.13:220][270]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.06-00.25.13:227][270]LogInit: FAudioDevice initialized.
-[2017.06.06-00.25.13:331][270]LogLoad: Game class is 'GameMode'
-[2017.06.06-00.25.13:334][270]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.05-17.25.13
-[2017.06.06-00.25.13:335][270]LogWorld: Bringing up level for play took: 0.002744
-[2017.06.06-00.25.13:336][270]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.06-00.25.13:336][270]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.06-00.25.13:336][270]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.06.06-00.25.13:336][270]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.06.06-00.25.13:343][270]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.313
-[2017.06.06-00.25.13:343][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.25.13:367][270]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
-[2017.06.06-00.25.13:370][270]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000020E7CAE2D00
-[2017.06.06-00.25.28:823][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.25.28:833][661]LogHMD: Destroying ovr session
-[2017.06.06-00.25.28:833][661]LogHMD: Freeing textureSet 0x0000020E7CAE2D00
-[2017.06.06-00.25.28:976][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2017.06.06-00.25.29:322][696]LogSlate: Took 0.000723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.06.06-00.30.31:112][256]LogSavePackage: Save=248.11ms
-[2017.06.06-00.30.31:112][256]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap07598D4C4143817DD3E2EABD29707DF0.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2017.06.06-00.30.31:118][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2017.06.06-00.30.31:385][256]LogSavePackage: Save=201.04ms
-[2017.06.06-00.30.31:385][256]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_BuiltData2DC906604A2315E4712AB4A6EDEC3679.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Maps/Maps/MotionControllerMap_BuiltData.uasset'
-[2017.06.06-00.30.31:388][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Maps/Maps/MotionControllerMap_BuiltData.uasset
-[2017.06.06-00.30.44:664][463]LogSavePackage: Save=7.08ms
-[2017.06.06-00.30.44:664][463]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/EnemyBT1ECD494F4B360E6C5BE043BF7FB7DC83.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/AI/EnemyBT.uasset'
-[2017.06.06-00.30.44:667][463]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Blueprints/AI/EnemyBT.uasset
-[2017.06.06-00.30.46:650][648]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.06-00.30.46:846][649]Cmd: QUIT_EDITOR
-[2017.06.06-00.30.47:683][649]LogExit: Preparing to exit.
-[2017.06.06-00.30.48:322][649]LogDirectoryWatcher: A directory notification for 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/' was aborted.
-[2017.06.06-00.30.48:345][649]LogExit: Editor shut down
-[2017.06.06-00.30.48:350][649]LogExit: Transaction tracking system shut down
-[2017.06.06-00.30.48:428][649]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.06-00.30.48:428][649]LogExit: Object subsystem successfully closed.
-[2017.06.06-00.30.48:464][649]LogD3D11RHI: Shutdown
-[2017.06.06-00.30.48:464][649]LogD3D11RHI: CleanupD3DDevice
-[2017.06.06-00.30.48:538][649]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.06-00.30.48:594][649]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
-[2017.06.06-00.30.48:594][649]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
-[2017.06.06-00.30.48:594][649]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
-[2017.06.06-00.30.48:594][649]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
-[2017.06.06-00.30.48:595][649]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
-[2017.06.06-00.30.48:595][649]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.06.06-00.30.48:596][649]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
-[2017.06.06-00.30.48:596][649]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
-[2017.06.06-00.30.48:596][649]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
-[2017.06.06-00.30.48:596][649]LogDirectoryWatcher: A directory notification for 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Collections/' was aborted.
-[2017.06.06-00.30.48:596][649]LogDirectoryWatcher: A directory notification for 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Developers/pluna/Collections/' was aborted.
-[2017.06.06-00.30.48:596][649]LogDirectoryWatcher: A directory notification for 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Collections/' was aborted.
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module BspMode (496)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
-[2017.06.06-00.30.48:597][649]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module Media (473)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module SessionServices (460)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
-[2017.06.06-00.30.48:598][649]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
-[2017.06.06-00.30.48:599][649]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
-[2017.06.06-00.30.48:772][649]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module MergeActors (430)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module SizeMap (428)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module TreeMap (426)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module XmlParser (410)
-[2017.06.06-00.30.48:773][649]LogModuleManager: Shutting down and abandoning module Blutility (408)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
-[2017.06.06-00.30.48:774][649]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
-[2017.06.06-00.30.48:828][649]LogModuleManager: Shutting down and abandoning module AutomationController (388)
-[2017.06.06-00.30.48:828][649]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
-[2017.06.06-00.30.48:828][649]LogModuleManager: Shutting down and abandoning module Layers (384)
-[2017.06.06-00.30.48:828][649]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
-[2017.06.06-00.30.48:828][649]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
-[2017.06.06-00.30.48:828][649]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
-[2017.06.06-00.30.48:829][649]LogModuleManager: Shutting down and abandoning module Persona (376)
-[2017.06.06-00.30.48:829][649]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
-[2017.06.06-00.30.48:829][649]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
-[2017.06.06-00.30.48:829][649]LogModuleManager: Shutting down and abandoning module Kismet (370)
-[2017.06.06-00.30.48:829][649]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
-[2017.06.06-00.30.48:829][649]LogModuleManager: Shutting down and abandoning module Toolbox (366)
-[2017.06.06-00.30.48:829][649]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
-[2017.06.06-00.30.48:829][649]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module OutputLog (360)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module GammaUI (358)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module Documentation (356)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module MovieScene (352)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module Niagara (350)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module PortalServices (342)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
-[2017.06.06-00.30.48:830][649]LogModuleManager: Shutting down and abandoning module AIModule (336)
-[2017.06.06-00.30.48:831][649]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
-[2017.06.06-00.30.48:831][649]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
-[2017.06.06-00.30.48:831][649]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module SteamVR (324)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module OculusInput (316)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module CableComponent (310)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2017.06.06-00.30.49:011][649]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
-[2017.06.06-00.30.49:012][649]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
-[2017.06.06-00.30.49:013][649]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
-[2017.06.06-00.30.49:013][649]LogModuleManager: Shutting down and abandoning module SourceControl (269)
-[2017.06.06-00.30.49:013][649]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
-[2017.06.06-00.30.49:013][649]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
-[2017.06.06-00.30.49:013][649]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
-[2017.06.06-00.30.49:013][649]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
-[2017.06.06-00.30.49:013][649]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
-[2017.06.06-00.30.49:013][649]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
-[2017.06.06-00.30.49:015][649]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
-[2017.06.06-00.30.49:015][649]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2017.06.06-00.30.49:015][649]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2017.06.06-00.30.49:015][649]LogDirectoryWatcher: A directory notification for 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Binaries/Win64' was aborted.
-[2017.06.06-00.30.49:016][649]LogModuleManager: Shutting down and abandoning module VRfpsPrototype (248)
-[2017.06.06-00.30.49:016][649]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.06.06-00.30.49:016][649]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.06.06-00.30.49:016][649]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.06.06-00.30.49:016][649]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.06.06-00.30.49:016][649]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.06.06-00.30.49:016][649]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.06.06-00.30.49:117][649]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.06.06-00.30.49:218][649]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.06.06-00.30.49:218][649]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.06.06-00.30.49:218][649]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.06.06-00.30.49:218][649]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.06.06-00.30.49:218][649]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.06.06-00.30.49:218][649]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.06.06-00.30.49:219][649]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.06.06-00.30.49:219][649]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.06.06-00.30.49:219][649]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.06.06-00.30.49:219][649]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.06.06-00.30.49:220][649]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.06.06-00.30.49:221][649]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.06.06-00.30.49:221][649]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.06.06-00.30.49:221][649]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.06.06-00.30.49:221][649]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.06.06-00.30.49:221][649]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.06.06-00.30.49:221][649]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.06.06-00.30.49:221][649]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.06.06-00.30.49:221][649]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.06.06-00.30.49:227][649]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.06.06-00.30.49:227][649]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.06.06-00.30.49:227][649]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.06.06-00.30.49:227][649]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.06.06-00.30.49:227][649]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.06.06-00.30.49:227][649]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.06.06-00.30.49:303][649]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.06.06-00.30.49:303][649]LogDirectoryWatcher: A directory notification for '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/' was aborted.
-[2017.06.06-00.30.49:303][649]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.06.06-00.30.49:304][649]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.06.06-00.30.49:306][649]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.06.06-00.30.49:307][649]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.06.06-00.30.49:307][649]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.06.06-00.30.49:307][649]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.06.06-00.30.49:307][649]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.06.06-00.30.49:308][649]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.06.06-00.30.49:308][649]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.06.06-00.30.49:308][649]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.06.06-00.30.49:308][649]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.06.06-00.30.49:382][649]LogDerivedDataCache: Shutdown
-[2017.06.06-00.30.49:382][649]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.06.06-00.30.49:383][649]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.06.06-00.30.49:384][649]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.06.06-00.30.49:385][649]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.06.06-00.30.49:386][649]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.06.06-00.30.49:389][649]LogHMD: Oculus shutdown.
-[2017.06.06-00.30.49:389][649]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.06.06-00.30.49:389][649]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.06.06-00.30.49:389][649]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.06.06-00.30.49:389][649]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.06.06-00.30.49:389][649]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.06.06-00.30.49:389][649]LogOnline:Display: Unloading online subsystem: NULL
-[2017.06.06-00.30.49:389][649]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.06.06-00.30.49:389][649]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.06.06-00.30.49:389][649]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.06.06-00.30.49:389][649]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE1FD4EA6-4D96-B4B7-7E68-5FAB223E5DDF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=b171f3c44b84084bc6b1529cf2299c4f%7Cd8b5d065eaf642878ad973a14b183324%7Cfd360097-89bc-4692-8463-bdc35a6ed3a2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.06.06-00.30.49:424][649]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.06.06-00.30.49:426][649]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.06.06-00.30.49:426][649]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.06.06-00.30.49:426][649]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.06.06-00.30.49:426][649]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.06.06-00.30.49:426][649]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.06.06-00.30.49:427][649]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.06.06-00.30.49:427][649]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.06.06-00.30.49:427][649]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.06.06-00.30.49:428][649]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.06.06-00.30.49:429][649]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.06.06-00.30.49:434][649]LogExit: Exiting.
-[2017.06.06-00.30.49:445][649]Log file closed, 06/05/17 17:30:49
+[2017.06.15-21.19.33:180][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.15-21.19.33:180][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.15-21.19.33:195][  0]LogInit: Computer: PLUNABOX
+[2017.06.15-21.19.33:195][  0]LogInit: User: pluna
+[2017.06.15-21.19.33:195][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.15-21.19.33:195][  0]LogInit: High frequency timer resolution =3.410073 MHz
+[2017.06.15-21.19.33:195][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.06.15-21.19.33:195][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.15-21.19.33:195][  0]LogMemory: Process Physical Memory: 279.82 MB used, 279.82 MB peak
+[2017.06.15-21.19.33:195][  0]LogMemory: Process Virtual Memory: 270.38 MB used, 270.38 MB peak
+[2017.06.15-21.19.33:195][  0]LogMemory: Physical Memory: 9430.24 MB used,  23236.02 MB free, 32666.25 MB total
+[2017.06.15-21.19.33:195][  0]LogMemory: Virtual Memory: 685.36 MB used,  23236.02 MB free, 134217728.00 MB total
+[2017.06.15-21.19.33:364][  0]LogInit: Using OS detected language (en-US).
+[2017.06.15-21.19.33:364][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.15-21.19.33:371][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.15-21.19.34:494][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.15-21.19.34:519][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.06.15-21.19.34:519][  0]LogD3D11RHI:       4059/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.15-21.19.34:520][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.15-21.19.34:520][  0]LogD3D11RHI:       0/0/16333 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.15-21.19.34:521][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.15-21.19.34:554][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.15-21.19.34:554][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.15-21.19.34:554][  0]LogWindows: EnumDisplayDevices:
+[2017.06.15-21.19.34:554][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.06.15-21.19.34:554][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.06.15-21.19.34:554][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.15-21.19.34:554][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.15-21.19.34:554][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.15-21.19.34:554][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.06.15-21.19.34:554][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.06.15-21.19.34:554][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.06.15-21.19.34:554][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.15-21.19.34:572][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.15-21.19.34:581][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.15-21.19.34:673][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Intermediate/Shaders/WorkingDirectory/187612/).
+[2017.06.15-21.19.34:673][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PLuna/AppData/Local/Temp/UnrealShaderWorkingDir/CE6AD1C4406EC478B6BC3292E2EC2F7D/'.
+[2017.06.15-21.19.34:673][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.15-21.19.36:101][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.15-21.19.36:213][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.15-21.19.36:325][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.15-21.19.36:435][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.15-21.19.36:546][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.15-21.19.36:658][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.15-21.19.36:773][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.15-21.19.36:890][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.15-21.19.36:994][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.15-21.19.37:105][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.15-21.19.37:215][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.15-21.19.37:325][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.15-21.19.37:437][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.15-21.19.37:552][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.15-21.19.37:660][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.15-21.19.37:885][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.15-21.19.37:885][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.15-21.19.37:984][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.15-21.19.38:168][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.15-21.19.38:231][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.15-21.19.38:339][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.15-21.19.38:450][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.15-21.19.38:562][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.15-21.19.38:675][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.15-21.19.38:675][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.15-21.19.39:853][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.15-21.19.39:962][  0]LogDerivedDataCache: Loaded boot cache 0.11s 103MB C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.15-21.19.39:962][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.15-21.19.39:962][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.15-21.19.39:962][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.15-21.19.39:962][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.15-21.19.39:962][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.15-21.19.39:977][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.15-21.19.39:990][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PLuna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.15-21.19.40:000][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.15-21.19.40:000][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.15-21.19.40:002][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.15-21.19.40:002][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.15-21.19.40:441][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.15-21.19.40:519][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.15-21.19.40:776][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.15-21.19.40:885][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.15-21.19.40:999][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.15-21.19.40:999][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.15-21.19.40:999][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.15-21.19.41:852][  0]LogNetVersion: VRfpsPrototype , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1376506324)
+[2017.06.15-21.19.41:947][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.06.15-21.19.42:041][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.036337 seconds
+[2017.06.15-21.19.42:046][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.15-21.19.42:046][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.15-21.19.42:046][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.15-21.19.42:206][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.15-21.19.46:860][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.15-21.19.46:937][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.15-21.19.47:694][  0]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.19.47:761][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.067 s
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: 
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 2145]
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: Stack: 
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002EBEE1C6
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002E99B7D2
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002E9B1D96
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E55178B
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E54F6DB
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E552317
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E51DE98
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E471E14
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-VRfpsPrototype.dll!AVRFPSPawn::AVRFPSPawn() [c:\users\pluna\documents\github\vrfpsprototype\vrfpsprototype\source\vrfpsprototype\vrfpspawn.cpp:13]
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E2F3E72
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E55AF5B
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E53E9A3
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000002E2F5C97
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002E83F670
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002EA93750
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-Projects.dll!0x000000004F28BF80
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor-Projects.dll!0x000000004F28C2BE
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000F4372F71
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000F4376E2B
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000F436EEDA
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000F436F12A
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000F4380CF9
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000F43825F7
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: KERNEL32.DLL!0x0000000075492774
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: ntdll.dll!0x0000000077640D61
+[2017.06.15-21.19.47:761][  0]LogOutputDevice:Error: 
+[2017.06.15-21.19.47:762][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2017.06.15-21.19.48:189][  0]LogStats:                    SendNewReport -  0.427 s
+[2017.06.15-21.19.48:189][  0]LogStats:             FDebug::EnsureFailed -  0.495 s
+[2017.06.15-21.19.48:695][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.15-21.19.49:630][  0]SourceControl: Info Source control is disabled
+[2017.06.15-21.19.49:695][  0]SourceControl: Info Source control is disabled
+[2017.06.15-21.19.49:813][  0]SourceControl: Info Source control is disabled
+[2017.06.15-21.19.49:927][  0]SourceControl: Info Source control is disabled
+[2017.06.15-21.19.51:528][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.15-21.19.52:893][  0]LogEngine: Initializing Engine...
+[2017.06.15-21.19.52:894][  0]LogHMD: Oculus plugin initialized. Version: 4.16.1-3466753+++UE4+Release-4.16, LibOVR: 1.15.0, SDK: 1.12.0, built May 31 2017, 02:11:10
+[2017.06.15-21.19.53:104][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.15-21.19.53:104][  0]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.15-21.19.53:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.15-21.19.53:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.15-21.19.53:419][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.15-21.19.53:428][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.15-21.19.53:440][  0]LogInit: FAudioDevice initialized.
+[2017.06.15-21.19.53:489][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/PLuna/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.15-21.19.53:509][  0]LogInit: Texture streaming: Enabled
+[2017.06.15-21.19.53:747][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.15-21.19.54:302][  0]LogInit: Transaction tracking system initialized
+[2017.06.15-21.19.55:081][  0]BlueprintLog: New page: Editor Load
+[2017.06.15-21.19.57:384][  0]LocalizationService: Info Localization service is disabled
+[2017.06.15-21.19.59:035][  0]LogConsoleResponse:Display: 
+[2017.06.15-21.19.59:255][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.15-21.19.59:255][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.15-21.20.00:201][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/' took 0.01s
+[2017.06.15-21.20.01:704][  0]SourceControl: Info Source control is disabled
+[2017.06.15-21.20.01:704][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.15-21.20.01:706][  0]LightingResults: New page: Lighting Build
+[2017.06.15-21.20.01:808][  0]MapCheck: New page: Map Check
+[2017.06.15-21.20.01:808][  0]LightingResults: New page: Lighting Build
+[2017.06.15-21.20.01:922][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.15-21.20.01:930][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.15-21.20.01:937][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.15-21.20.02:081][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 143.279ms to complete.
+[2017.06.15-21.20.02:081][  0]LogFileHelpers: Loading map 'StartupMap' took 0.377
+[2017.06.15-21.20.02:156][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.15-21.20.02:281][  0]LogCollectionManager: Loaded 0 collections in 0.001913 seconds
+[2017.06.15-21.20.02:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Collections/' took 0.01s
+[2017.06.15-21.20.02:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Developers/pluna/Collections/' took 0.01s
+[2017.06.15-21.20.02:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Collections/' took 0.01s
+[2017.06.15-21.20.02:434][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.15-21.20.02:445][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2334 classes and 493 folders.
+[2017.06.15-21.20.02:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.06.15-21.20.02:754][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.06.15-21.20.02:865][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.06.15-21.20.02:959][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.15-21.20.02:966][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.15-21.20.02:968][  0]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.15-21.20.02:975][  0]LogSlate: Took 0.001456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.15-21.20.03:081][  0]LogRenderer: Reallocating scene render targets to support 1056x556 NumSamples 1 (Frame:1).
+[2017.06.15-21.20.03:188][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.15-21.20.03:318][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.06.15-21.20.03:318][  0]LogLoad: (Engine Initialization) Total time: 33.23 seconds
+[2017.06.15-21.20.03:318][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.06.15-21.20.03:318][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.15-21.20.03:318][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.15-21.20.03:328][  0]LogOcInput: OculusInput pre-init called
+[2017.06.15-21.20.03:339][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.15.0
+[2017.06.15-21.20.03:339][  0]LogHMD: Starting GearVRController plugin
+[2017.06.15-21.20.03:353][  0]LogAssetRegistry: Asset discovery search completed in 21.4291 seconds
+[2017.06.15-21.20.03:355][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.15-21.20.03:355][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.06.15-21.20.03:359][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.15-21.20.03:413][  0]LogSlate: Took 0.001366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.15-21.22.29:519][622]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.15-21.22.29:773][622]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.15-21.22.29:791][622]Cmd: MAP LOAD FILE="../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.15-21.22.29:791][622]LightingResults: New page: Lighting Build
+[2017.06.15-21.22.29:791][622]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.06.15-21.22.29:792][622]MapCheck: New page: Map Check
+[2017.06.15-21.22.29:793][622]LightingResults: New page: Lighting Build
+[2017.06.15-21.22.29:806][622]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.15-21.22.29:836][622]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.15-21.22.29:981][622]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 145.314ms to complete.
+[2017.06.15-21.22.29:982][622]LogFileHelpers: Loading map 'MotionControllerMap' took 0.192
+[2017.06.15-21.22.32:784][954]LogTemp: Repeting last play command: VR Preview
+[2017.06.15-21.22.32:813][954]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.22.32:813][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-21.22.32:817][954]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.15-21.22.32:817][954]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.15-21.22.32:817][954]LogHMD: New ovr session is created
+[2017.06.15-21.22.32:817][954]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.15-21.22.32:818][954]PIE: New page: PIE session: MotionControllerMap (Jun 15, 2017, 7:22:32 AM)
+[2017.06.15-21.22.32:818][954]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.15-21.22.32:827][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008644s)
+[2017.06.15-21.22.32:828][954]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.15-21.22.32:828][954]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2017.06.15-21.22.32:828][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.009693s)
+[2017.06.15-21.22.32:840][954]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-21.22.32:848][954]LogInit: FAudioDevice initialized.
+[2017.06.15-21.22.32:954][954]LogLoad: Game class is 'GameMode'
+[2017.06.15-21.22.32:958][954]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.15-14.22.32
+[2017.06.15-21.22.32:961][954]LogWorld: Bringing up level for play took: 0.004854
+[2017.06.15-21.22.33:074][954]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2017.06.15-21.22.33:074][954]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.15-21.22.33:074][954]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.15-21.22.33:074][954]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.15-21.22.33:075][954]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.15-21.22.33:079][954]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.236
+[2017.06.15-21.22.33:079][954]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.22.33:095][954]LogHMD: Reallocation of eye buffer was requested
+[2017.06.15-21.22.33:097][954]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x00000215AFBDA010
+[2017.06.15-21.22.33:124][954]LogRenderer: Reallocating scene render targets to support 2712x1600 NumSamples 1 (Frame:1).
+[2017.06.15-21.22.36:864][450]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.22.38:023][603]LogHMD: Lost Vision Tracking
+[2017.06.15-21.22.40:009][865]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.22.44:109][404]LogHMD: Lost Vision Tracking
+[2017.06.15-21.22.44:754][489]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.22.49:296][ 86]LogHMD: Lost Vision Tracking
+[2017.06.15-21.22.49:691][138]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.22.50:523][248]LogHMD: Lost Vision Tracking
+[2017.06.15-21.22.55:411][890]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.22.55:501][902]LogHMD: Lost Vision Tracking
+[2017.06.15-21.22.56:125][984]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.22.57:959][201]OCULUS: Error: WaitableTimer slept too long/short (i.e. 2.780484 ms)
+[2017.06.15-21.23.30:983][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.23.30:994][167]LogHMD: Destroying ovr session
+[2017.06.15-21.23.30:994][167]LogHMD: Freeing textureSet 0x00000215AFBDA010
+[2017.06.15-21.23.31:090][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.23.33:608][466]LogEditorViewport: Clicking on Actor (LMB): VRFPSMotionController_C (VRFPSMotionController)
+[2017.06.15-21.23.34:938][606]LogSlate: Took 0.001736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.15-21.23.37:895][895]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0027 seconds. Added 112 classes and 0 folders.
+[2017.06.15-21.23.38:521][895]LogSlate: Took 0.001422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'AttachedActor' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'HandMesh' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:312][416]LogBlueprint:Warning: [VRFPSMotionController] 'bWantsToGrip' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:313][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:313][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:313][416]LogBlueprint:Warning: [VRFPSMotionController] 'GripState' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:313][416]LogBlueprint:Warning: [VRFPSMotionController] 'HandMesh' variable not found. Base class was probably changed.
+[2017.06.15-21.25.19:313][416]LogBlueprint:Warning: [VRFPSMotionController] 'bWantsToGrip' variable not found. Base class was probably changed.
+[2017.06.15-21.26.54:375][105]LogSlate: Took 0.001657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.15-21.27.09:165][305]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.27.09:176][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "bWantsToGrip" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get bWantsToGrip
+[2017.06.15-21.27.09:176][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.27.09:176][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.27.09:176][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.27.09:176][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "bWantsToGrip" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get bWantsToGrip
+[2017.06.15-21.27.09:176][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.27.09:176][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.27.09:176][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.27.09:177][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.27.09:177][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.27.09:177][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error Could not find a function named "UpdateRoomScaleOutline" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Update Room Scale Outline
+[2017.06.15-21.27.09:177][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error Could not find a function named "GetActorNearHand" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get Actor Near Hand
+[2017.06.15-21.27.09:177][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "AttachedActor" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get AttachedActor
+[2017.06.15-21.27.09:178][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Wants to Grip  could not be found
+[2017.06.15-21.27.09:178][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Attached Actor  could not be found
+[2017.06.15-21.27.09:178][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.27.09:178][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:178][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:179][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:179][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:179][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Wants to Grip  could not be found
+[2017.06.15-21.27.09:179][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:179][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:179][305]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.27.09:677][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bWantsToGrip" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get bWantsToGrip
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bWantsToGrip" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get bWantsToGrip
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error Could not find a function named "UpdateRoomScaleOutline" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Update Room Scale Outline
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetActorNearHand" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get Actor Near Hand
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "AttachedActor" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get AttachedActor
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Wants to Grip  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Attached Actor  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Wants to Grip  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.27.09:678][305]BlueprintEditorCompileResults:Error: Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.27.09:679][305]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning [0459.59] Compile of VRFPSMotionController failed. 13 Fatal Issue(s) 11 Warning(s) [in 513 ms] (/Game/VirtualRealityBP/VRFPSMotionController.VRFPSMotionController)
+[2017.06.15-21.28.07:075][ 27]LogEditorTransaction: Undo Add Variable
+[2017.06.15-21.28.23:920][260]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "bWantsToGrip" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get bWantsToGrip
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "bWantsToGrip" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get bWantsToGrip
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.23:931][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.28.23:932][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.28.23:932][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error Could not find a function named "UpdateRoomScaleOutline" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Update Room Scale Outline
+[2017.06.15-21.28.23:932][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error Could not find a function named "GetActorNearHand" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get Actor Near Hand
+[2017.06.15-21.28.23:932][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Wants to Grip  could not be found
+[2017.06.15-21.28.23:932][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.28.23:932][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.23:933][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.23:933][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.23:933][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.23:933][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Wants to Grip  could not be found
+[2017.06.15-21.28.23:933][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.23:933][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.23:933][260]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.28.24:366][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bWantsToGrip" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get bWantsToGrip
+[2017.06.15-21.28.24:366][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.28.24:366][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bWantsToGrip" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get bWantsToGrip
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error Could not find a function named "UpdateRoomScaleOutline" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Update Room Scale Outline
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetActorNearHand" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get Actor Near Hand
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Wants to Grip  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Wants to Grip  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.24:367][260]BlueprintEditorCompileResults:Error: Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.28.24:367][260]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning [0534.28] Compile of VRFPSMotionController failed. 12 Fatal Issue(s) 10 Warning(s) [in 447 ms] (/Game/VirtualRealityBP/VRFPSMotionController.VRFPSMotionController)
+[2017.06.15-21.28.49:034][265]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.28.49:045][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.28.49:045][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.28.49:045][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.49:045][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.49:045][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.49:045][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.49:045][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.28.49:045][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.28.49:046][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error Could not find a function named "UpdateRoomScaleOutline" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Update Room Scale Outline
+[2017.06.15-21.28.49:046][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error Could not find a function named "GetActorNearHand" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get Actor Near Hand
+[2017.06.15-21.28.49:046][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.28.49:046][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:046][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:046][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:046][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:047][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:047][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:047][265]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set GripState
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GripState" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get GripState
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error Could not find a function named "UpdateRoomScaleOutline" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Update Room Scale Outline
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetActorNearHand" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get Actor Near Hand
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error The property associated with  Grip State  could not be found
+[2017.06.15-21.28.49:455][265]BlueprintEditorCompileResults:Error: Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.28.49:455][265]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning [0559.37] Compile of VRFPSMotionController failed. 10 Fatal Issue(s) 8 Warning(s) [in 420 ms] (/Game/VirtualRealityBP/VRFPSMotionController.VRFPSMotionController)
+[2017.06.15-21.29.21:920][959]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.29.21:932][959]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.29.21:932][959]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.29.21:932][959]LogBlueprint:Error: [Compiler VRFPSMotionController] Error Could not find a function named "UpdateRoomScaleOutline" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Update Room Scale Outline
+[2017.06.15-21.29.21:932][959]LogBlueprint:Error: [Compiler VRFPSMotionController] Error Could not find a function named "GetActorNearHand" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get Actor Near Hand
+[2017.06.15-21.29.21:932][959]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.29.21:933][959]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.29.22:336][959]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.29.22:336][959]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "HandMesh" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get HandMesh
+[2017.06.15-21.29.22:336][959]BlueprintEditorCompileResults:Error: Error Could not find a function named "UpdateRoomScaleOutline" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Update Room Scale Outline
+[2017.06.15-21.29.22:336][959]BlueprintEditorCompileResults:Error: Error Could not find a function named "GetActorNearHand" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get Actor Near Hand
+[2017.06.15-21.29.22:336][959]BlueprintEditorCompileResults:Error: Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.29.22:336][959]BlueprintEditorCompileResults:Error: Error The property associated with  Hand Mesh  could not be found
+[2017.06.15-21.29.22:336][959]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning [0592.25] Compile of VRFPSMotionController failed. 4 Fatal Issue(s) 2 Warning(s) [in 415 ms] (/Game/VirtualRealityBP/VRFPSMotionController.VRFPSMotionController)
+[2017.06.15-21.29.22:787][987]LogSavePackage: Save=43.66ms
+[2017.06.15-21.29.22:787][987]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/VRFPSMotionController5F0823E34CE6A479E1BBD785A50E1163.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRFPSMotionController.uasset'
+[2017.06.15-21.29.22:791][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRFPSMotionController.uasset
+[2017.06.15-21.32.20:808][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.32.20:808][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.32.20:821][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.32.20:821][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.32.20:836][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.32.20:836][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.32.20:850][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.32.20:850][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.32.21:107][565]LogUObjectGlobals:Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. VRMovementComponent PawnMovementComponent
+[2017.06.15-21.33.02:874][640]LogBlueprint:Warning: [VRFPSMotionController] 'LeftController' variable not found. Base class was probably changed.
+[2017.06.15-21.33.02:874][640]LogBlueprint:Warning: [VRFPSMotionController] 'RightController' variable not found. Base class was probably changed.
+[2017.06.15-21.33.02:874][640]LogBlueprint:Warning: [VRFPSMotionController] 'VROrigin' variable not found. Base class was probably changed.
+[2017.06.15-21.33.02:875][640]LogBlueprint:Warning: [VRFPSMotionController] 'VROrigin' variable not found. Base class was probably changed.
+[2017.06.15-21.33.02:875][640]LogBlueprint:Warning: [VRFPSMotionController] 'LeftController' variable not found. Base class was probably changed.
+[2017.06.15-21.33.02:875][640]LogBlueprint:Warning: [VRFPSMotionController] 'LeftController' variable not found. Base class was probably changed.
+[2017.06.15-21.33.02:875][640]LogBlueprint:Warning: [VRFPSMotionController] 'RightController' variable not found. Base class was probably changed.
+[2017.06.15-21.33.02:875][640]LogBlueprint:Warning: [VRFPSMotionController] 'RightController' variable not found. Base class was probably changed.
+[2017.06.15-21.33.22:396][333]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.33.22:408][333]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "RightController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set RightController
+[2017.06.15-21.33.22:408][333]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "LeftController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set LeftController
+[2017.06.15-21.33.22:408][333]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.33.22:409][333]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.33.22:409][333]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "RightController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get RightController
+[2017.06.15-21.33.22:409][333]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "LeftController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get LeftController
+[2017.06.15-21.33.22:410][333]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Left Controller  could not be found
+[2017.06.15-21.33.22:410][333]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Right Controller  could not be found
+[2017.06.15-21.33.22:411][333]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.33.22:411][333]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Left Controller  could not be found
+[2017.06.15-21.33.22:411][333]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.33.22:411][333]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Right Controller  could not be found
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "RightController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set RightController
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LeftController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set LeftController
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "RightController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get RightController
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LeftController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get LeftController
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Error: Error The property associated with  Left Controller  could not be found
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Error: Error The property associated with  Right Controller  could not be found
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Error: Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Error: Error The property associated with  Left Controller  could not be found
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Error: Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.33.22:839][333]BlueprintEditorCompileResults:Error: Error The property associated with  Right Controller  could not be found
+[2017.06.15-21.33.22:840][333]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning [0832.75] Compile of VRFPSMotionController failed. 6 Fatal Issue(s) 6 Warning(s) [in 443 ms] (/Game/VirtualRealityBP/VRFPSMotionController.VRFPSMotionController)
+[2017.06.15-21.33.50:999][357]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.33.51:009][357]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "LeftController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set LeftController
+[2017.06.15-21.33.51:009][357]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.33.51:010][357]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.33.51:010][357]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "LeftController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get LeftController
+[2017.06.15-21.33.51:011][357]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Left Controller  could not be found
+[2017.06.15-21.33.51:011][357]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.33.51:011][357]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  Left Controller  could not be found
+[2017.06.15-21.33.51:011][357]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.33.51:421][357]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LeftController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Set LeftController
+[2017.06.15-21.33.51:421][357]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.33.51:421][357]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.33.51:421][357]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LeftController" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get LeftController
+[2017.06.15-21.33.51:421][357]BlueprintEditorCompileResults:Error: Error The property associated with  Left Controller  could not be found
+[2017.06.15-21.33.51:421][357]BlueprintEditorCompileResults:Error: Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.33.51:421][357]BlueprintEditorCompileResults:Error: Error The property associated with  Left Controller  could not be found
+[2017.06.15-21.33.51:421][357]BlueprintEditorCompileResults:Error: Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.33.51:422][357]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning [0861.34] Compile of VRFPSMotionController failed. 4 Fatal Issue(s) 4 Warning(s) [in 422 ms] (/Game/VirtualRealityBP/VRFPSMotionController.VRFPSMotionController)
+[2017.06.15-21.34.10:086][699]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.34.10:096][699]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.34.10:096][699]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.34.10:097][699]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.34.10:097][699]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.34.10:511][699]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.34.10:511][699]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.34.10:511][699]BlueprintEditorCompileResults:Error: Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.34.10:511][699]BlueprintEditorCompileResults:Error: Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.34.10:512][699]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning [0880.43] Compile of VRFPSMotionController failed. 2 Fatal Issue(s) 2 Warning(s) [in 425 ms] (/Game/VirtualRealityBP/VRFPSMotionController.VRFPSMotionController)
+[2017.06.15-21.34.12:951][869]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.34.12:960][869]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.34.12:961][869]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.34.12:962][869]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.34.12:962][869]LogBlueprint:Error: [Compiler VRFPSMotionController] Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.34.13:193][869]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.34.13:193][869]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "VROrigin" in 'VRFPSMotionController_C'.
+Make sure 'VRFPSMotionController_C' has been compiled for  Get VROrigin
+[2017.06.15-21.34.13:193][869]BlueprintEditorCompileResults:Error: Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.34.13:193][869]BlueprintEditorCompileResults:Error: Error The property associated with  VROrigin  could not be found
+[2017.06.15-21.34.13:193][869]LogBlueprint:Warning: [Compiler VRFPSMotionController] Warning [0883.11] Compile of VRFPSMotionController failed. 2 Fatal Issue(s) 2 Warning(s) [in 241 ms] (/Game/VirtualRealityBP/VRFPSMotionController.VRFPSMotionController)
+[2017.06.15-21.34.50:914][575]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.34.51:700][612]LogSavePackage: Save=39.54ms
+[2017.06.15-21.34.51:700][612]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/VRFPSMotionControllerCB9DD0264122C131B3ECE08F1ECEE616.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRFPSMotionController.uasset'
+[2017.06.15-21.34.51:704][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/VRFPSMotionController.uasset
+[2017.06.15-21.34.53:645][752]LogTemp: Repeting last play command: VR Preview
+[2017.06.15-21.34.53:670][752]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.34.53:670][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-21.34.53:671][752]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.15-21.34.53:671][752]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.15-21.34.53:671][752]LogHMD: New ovr session is created
+[2017.06.15-21.34.53:671][752]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.15-21.34.53:671][752]PIE: New page: PIE session: MotionControllerMap (Jun 15, 2017, 7:34:53 AM)
+[2017.06.15-21.34.53:671][752]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.15-21.34.53:679][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007969s)
+[2017.06.15-21.34.53:680][752]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.15-21.34.53:680][752]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2017.06.15-21.34.53:680][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008963s)
+[2017.06.15-21.34.53:728][752]LogHMD: Lost Vision Tracking
+[2017.06.15-21.34.53:732][752]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-21.34.53:740][752]LogInit: FAudioDevice initialized.
+[2017.06.15-21.34.53:845][752]LogLoad: Game class is 'GameMode'
+[2017.06.15-21.34.53:848][752]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.15-14.34.53
+[2017.06.15-21.34.53:849][752]LogWorld: Bringing up level for play took: 0.002630
+[2017.06.15-21.34.53:849][752]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.15-21.34.53:849][752]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.15-21.34.53:849][752]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.15-21.34.53:853][752]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.15-21.34.53:862][752]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.024
+[2017.06.15-21.34.53:863][752]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.34.53:885][752]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.15-21.34.53:887][752]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x00000216239D93B0
+[2017.06.15-21.34.59:011][150]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.34.59:241][168]LogHMD: Lost Vision Tracking
+[2017.06.15-21.34.59:253][169]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.35.27:529][671]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.35.27:540][671]LogHMD: Destroying ovr session
+[2017.06.15-21.35.27:540][671]LogHMD: Freeing textureSet 0x00000216239D93B0
+[2017.06.15-21.35.27:708][671]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.35.39:540][592]BlueprintLog: New page: Compile VRFPSMotionController
+[2017.06.15-21.35.40:304][625]LogTemp: Repeting last play command: VR Preview
+[2017.06.15-21.35.40:324][625]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.35.40:324][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-21.35.40:362][625]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.15-21.35.40:362][625]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.15-21.35.40:362][625]LogHMD: New ovr session is created
+[2017.06.15-21.35.40:362][625]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.15-21.35.40:362][625]PIE: New page: PIE session: MotionControllerMap (Jun 15, 2017, 7:35:40 AM)
+[2017.06.15-21.35.40:362][625]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.15-21.35.40:370][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007779s)
+[2017.06.15-21.35.40:371][625]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.15-21.35.40:371][625]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2017.06.15-21.35.40:371][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008701s)
+[2017.06.15-21.35.40:417][625]LogHMD: Lost Vision Tracking
+[2017.06.15-21.35.40:421][625]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-21.35.40:427][625]LogInit: FAudioDevice initialized.
+[2017.06.15-21.35.40:517][625]LogLoad: Game class is 'GameMode'
+[2017.06.15-21.35.40:520][625]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.15-14.35.40
+[2017.06.15-21.35.40:521][625]LogWorld: Bringing up level for play took: 0.002787
+[2017.06.15-21.35.40:521][625]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.15-21.35.40:521][625]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.15-21.35.40:521][625]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.15-21.35.40:524][625]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.15-21.35.40:531][625]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.693
+[2017.06.15-21.35.40:531][625]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.35.40:565][625]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.15-21.35.40:567][625]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x00000216239D99D0
+[2017.06.15-21.35.40:749][642]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.36.42:035][158]OCULUS: Error: Prediction interval too high: 0.109622 s, clamping at 0.100000 s
+[2017.06.15-21.36.50:692][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.36.50:698][936]LogHMD: Destroying ovr session
+[2017.06.15-21.36.50:698][936]LogHMD: Freeing textureSet 0x00000216239D99D0
+[2017.06.15-21.36.50:861][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.37.16:033][466]LogSavePackage: Save=213.21ms
+[2017.06.15-21.37.16:033][466]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_Auto149DBCD9C4712B108432912A9BC6ADD7C.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2017.06.15-21.37.16:035][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2017.06.15-21.37.16:037][466]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.249
+[2017.06.15-21.37.16:037][466]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.249
+[2017.06.15-21.37.16:039][466]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/VRFPSMotionController] ([1] browsable assets)...
+[2017.06.15-21.37.16:039][466]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/VRFPSMotionController]
+[2017.06.15-21.37.16:085][466]LogSavePackage: Save=37.20ms
+[2017.06.15-21.37.16:085][466]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/VRFPSMotionController_Auto12F435D33418714715C8D729C87B5094C.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/VRFPSMotionController_Auto1.uasset'
+[2017.06.15-21.37.16:087][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/VRFPSMotionController_Auto1.uasset
+[2017.06.15-21.37.16:088][466]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn] ([1] browsable assets)...
+[2017.06.15-21.37.16:108][466]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn.HMDLocomotionPawn]
+[2017.06.15-21.37.16:108][466]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn]
+[2017.06.15-21.37.16:301][466]LogSavePackage: Save=179.32ms
+[2017.06.15-21.37.16:301][466]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/HMDLocomotionPawn_Auto134BFBB1E4C9DD1F6A0EDAD81EF79670A.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn_Auto1.uasset'
+[2017.06.15-21.37.16:302][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/HMDLocomotionPawn_Auto1.uasset
+[2017.06.15-21.37.16:303][466]LogFileHelpers: Auto-saving content packages took 0.264
+[2017.06.15-21.37.16:554][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube10)
+[2017.06.15-21.37.17:515][567]Cmd: POLY SELECT MEMORY UNION
+[2017.06.15-21.37.42:789][ 42]LogTemp: Repeting last play command: VR Preview
+[2017.06.15-21.37.42:810][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.37.42:810][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-21.37.42:811][ 42]OCULUS: Debug: [HMDState] Using default profile default
+[2017.06.15-21.37.42:811][ 42]OCULUS: Info: IAD changed to 59.9mm
+[2017.06.15-21.37.42:811][ 42]LogHMD: New ovr session is created
+[2017.06.15-21.37.42:811][ 42]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.06.15-21.37.42:811][ 42]PIE: New page: PIE session: MotionControllerMap (Jun 15, 2017, 7:37:42 AM)
+[2017.06.15-21.37.42:811][ 42]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.06.15-21.37.42:829][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017281s)
+[2017.06.15-21.37.42:829][ 42]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.06.15-21.37.42:829][ 42]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.06.15-21.37.42:830][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.018213s)
+[2017.06.15-21.37.42:846][ 42]LogHMD: Lost Vision Tracking
+[2017.06.15-21.37.42:850][ 42]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-21.37.42:857][ 42]LogInit: FAudioDevice initialized.
+[2017.06.15-21.37.42:956][ 42]LogLoad: Game class is 'GameMode'
+[2017.06.15-21.37.42:959][ 42]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.06.15-14.37.42
+[2017.06.15-21.37.42:960][ 42]LogWorld: Bringing up level for play took: 0.002471
+[2017.06.15-21.37.42:960][ 42]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.15-21.37.42:960][ 42]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.15-21.37.42:960][ 42]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.15-21.37.42:962][ 42]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.15-21.37.42:969][ 42]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.131
+[2017.06.15-21.37.42:970][ 42]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.37.42:990][ 42]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.06.15-21.37.42:991][ 42]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x000002162342A0A0
+[2017.06.15-21.37.44:842][227]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.38.27:044][ 58]LogHMD: Lost Vision Tracking
+[2017.06.15-21.38.28:044][148]LogHMD: Vision Tracking Acquired
+[2017.06.15-21.38.59:928][ 18]OCULUS: Error: Prediction interval too high: 0.103605 s, clamping at 0.100000 s
+[2017.06.15-21.39.27:634][511]LogCharacterMovement: VRFPSMotionController_188 is stuck and failed to move! Velocity: X=483.40 Y=-167.33 Z=0.00 Location: X=411.27 Y=-413.18 Z=258.15 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:0.257 Actor:None Component:ModelComponent_40 BoneName:None (0 other events since notify)
+[2017.06.15-21.40.01:008][513]LogHMD: Lost Vision Tracking
+[2017.06.15-21.40.15:709][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.40.15:714][836]LogHMD: Destroying ovr session
+[2017.06.15-21.40.15:714][836]LogHMD: Freeing textureSet 0x000002162342A0A0
+[2017.06.15-21.40.15:826][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.06.15-21.40.43:103][307]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.06.15-21.40.45:061][308]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.06.15-21.40.45:104][309]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.06.15-21.40.45:601][310]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Source/VRfpsPrototype/VRFPSCharacter.h'
+[2017.06.15-21.40.45:632][310]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Source/VRfpsPrototype/VRFPSCharacter.cpp'
+[2017.06.15-21.46.24:212][ 41]LogFileHelpers:Warning: PromptForCheckoutAndSave attempted to save a compiled in package: /Script/VRfpsPrototype
+[2017.06.15-21.46.25:191][130]LogFileHelpers:Warning: PromptForCheckoutAndSave attempted to save a compiled in package: /Script/VRfpsPrototype
+[2017.06.15-21.46.27:163][325]LogFileHelpers:Warning: PromptForCheckoutAndSave attempted to save a compiled in package: /Script/VRfpsPrototype
+[2017.06.15-21.46.29:225][518]LogSlate: Took 0.013919 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.15-21.46.29:245][518]LogSlate: Took 0.018548 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2017.06.15-21.46.30:257][607]LogSavePackage: Save=226.09ms
+[2017.06.15-21.46.30:257][607]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap47DD269B42E5451B45C975BC3B415C08.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2017.06.15-21.46.30:261][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.06.15-21.46.30:460][607]LogSavePackage: Save=145.44ms
+[2017.06.15-21.46.30:460][607]LogSavePackage: Moving '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Saved/MotionControllerMap_BuiltData7D8133CD4CE302588DDC5DB678A1AE42.tmp' to '../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Maps/Maps/MotionControllerMap_BuiltData.uasset'
+[2017.06.15-21.46.30:463][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PLuna/Documents/GitHub/VRfpsPrototype/VRfpsPrototype/Content/Maps/Maps/MotionControllerMap_BuiltData.uasset
