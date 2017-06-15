@@ -4,6 +4,6 @@
 	"BuildId" : "7370d9bf-5485-48ce-aacb-446748b048bc",
 	"Modules" : 
 	{
-		"VRfpsPrototype" : "UE4Editor-VRfpsPrototype-7423.dll"
+		"VRfpsPrototype" : "UE4Editor-VRfpsPrototype.dll"
 	}
 }
