@@ -1,3 +1,0 @@
-C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototype\VRfpsPrototype.Build.cs
-C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototype.Target.cs
-C:\Users\PLuna\Documents\GitHub\VRfpsPrototype\VRfpsPrototype\Source\VRfpsPrototypeEditor.Target.cs
